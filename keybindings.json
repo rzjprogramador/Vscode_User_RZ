@@ -6,7 +6,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "shift+t",
+    "key": "ctrl+t",
     "command": "workbench.action.terminal.new"
   },
   {
