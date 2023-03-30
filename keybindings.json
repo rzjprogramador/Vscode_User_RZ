@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
-    "key": "shift+;",
+    "key": "ctrl+;",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -12,15 +12,5 @@
   {
     "key": "shift+f5",
     "command": "code-runner.run"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "markdown.extension.editing.toggleBold",
-    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^qmd$/"
-  },
-  {
-    "key": "ctrl+e",
-    "command": "-markdown.extension.editing.toggleBold",
-    "when": "editorTextFocus && !editorReadonly && editorLangId =~ /^markdown$|^rmd$|^qmd$/"
   }
 ]

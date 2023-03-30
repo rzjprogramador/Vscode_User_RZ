@@ -4,5 +4,5 @@ interface Props {
 }
 // foo
 // foo
-// foo;
-console.log("Ola");
+// foo; 
+console.log("Ola"); 
