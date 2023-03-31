@@ -22,5 +22,10 @@
     "key": "ctrl+k",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
   }
 ]
