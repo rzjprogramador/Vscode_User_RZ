@@ -1,7 +1,8 @@
 // Place your key bindings in this file to override the defaultsauto[]
+// tester
 [
   {
-    "key": "ctrl+;",
+    "key": "ctrl+\\",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
