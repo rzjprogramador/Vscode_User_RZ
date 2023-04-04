@@ -36,7 +36,7 @@
     "when": "terminal.active"
   },
   {
-    "key": "ctrl+shift+q",
+    "key": "ctrl+shift+k",
     "command": "workbench.action.quit"
   },
   {
@@ -70,5 +70,13 @@
     "key": "ctrl+w",
     "command": "-workbench.action.terminal.killEditor",
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
+  },
+  {
+    "key": "ctrl+shift+q",
+    "command": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "key": "ctrl+k w",
+    "command": "-workbench.action.closeEditorsInGroup"
   }
 ]
