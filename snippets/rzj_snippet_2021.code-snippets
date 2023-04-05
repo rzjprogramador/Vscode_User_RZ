@@ -76,6 +76,18 @@
       "$0",  
     ],
     "description": "divid_ESTRELAS"
+  },
+  "tabela": {
+    "prefix": "tabela",
+    "body": [
+      "  # $1",
+      "",
+      "| Cabecalho | Cabecalho | Cabecalho | Cabecalho |",
+      "| --------- | --------- | --------- | --------- |",
+      "| lista     | lista     | lista     | lista     |",
+      "| lista     | lista     | lista     | lista     |"
+    ],
+    "description": "tabela"
   }
 
 }
