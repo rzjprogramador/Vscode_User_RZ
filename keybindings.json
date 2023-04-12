@@ -40,7 +40,7 @@
     "command": "workbench.action.quit"
   },
   {
-    "key": "f12",
+    "key": "f11",
     "command": "workbench.action.closeActiveEditor"
   },
   {
@@ -68,7 +68,7 @@
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
   },
   {
-    "key": "f12 f12",
+    "key": "f12",
     "command": "workbench.action.closeEditorsInGroup"
   },
   {
@@ -114,7 +114,7 @@
     "when": "!isIOS"
   },
   {
-    "key": "f11",
+    "key": "f10",
     "command": "workbench.action.showCommands"
   },
   {
