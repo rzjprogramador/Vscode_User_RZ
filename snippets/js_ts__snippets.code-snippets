@@ -15,6 +15,50 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "test_DENO_SUITE": {
+    "prefix": "test_DENO_SUITE",
+    "body": [
+      "Deno.test(\"[ $1 ] deve ...\", () => {",
+      "  const input = { foo: \"foo\" };",
+      "  const { sut } = makeSut(input);",
+      "",
+      "  const where = true;",
+      "  const actual = true;",
+      "",
+      "  console.log(\"test SUT >>> \", sut);",
+      "  console.log(\"test WHERE >>> \", where)",
+      "  console.log(\"test ACTUAL >>> \", actual)",
+      "",
+      "  expect(where).toEqual(actual);",
+      "});"
+    ],
+    "description": "test_DENO_SUITE"
+  },
+  "test_DENO_suite_imports": {
+    "prefix": "test_DENO_suite_imports",
+    "body": [
+      "import { expect } from \"https://deno.land/x/expect@v0.2.10/expect.ts\";",
+      "",
+      "const makeSut = (d: any) => {",
+      "  return { sut: console.log(d) };",
+      "};",
+      "",
+      "Deno.test(\"[ $1 ] deve ...\", () => {",
+      "  const input = { foo: \"foo\" };",
+      "  const { sut } = makeSut(input);",
+      "",
+      "  const where = true;",
+      "  const actual = true;",
+      "",
+      "  console.log(\"test SUT >>> \", sut);",
+      "  console.log(\"test WHERE >>> \", where)",
+      "  console.log(\"test ACTUAL >>> \", actual)",
+      "",
+      "  expect(where).toEqual(actual);",
+      "});"
+    ],
+    "description": "test_DENO_suite_imports"
+  },
   "deno_test_import_expect": {
     "prefix": "deno_test_import_expect",
     "body": [
