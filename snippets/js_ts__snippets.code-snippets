@@ -15,6 +15,13 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "deno_test_import_expect": {
+    "prefix": "deno_test_import_expect",
+    "body": [
+      "import { expect } from \"https://deno.land/x/expect@v0.2.10/expect.ts\";"
+    ],
+    "description": "deno_test_import_expect"
+  },
   "ignore_ts_erros": {
     "scope": "javascript,typescript",
     "prefix": "ignore_ts_erros",

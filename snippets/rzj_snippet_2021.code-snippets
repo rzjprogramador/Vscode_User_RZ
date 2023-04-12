@@ -1,5 +1,14 @@
 {
   // global
+  "tabela_markdown": {
+    "prefix": "tabela_markdown",
+    "body": [
+      "${1:head}   | ${2:head2}",
+      "--------- | ------",
+      "${3:linha} | ${4:linha2}"
+    ],
+    "description": "tabela_markdown"
+  },
   "divid": {
     "prefix": "divid_lua",
     "body": [
@@ -26,7 +35,7 @@
     ],
     "description": "html5_template"
   },
-  
+
   "http_api_rest_template": {
     "prefix": "http_api_rest_template",
     "body": [
@@ -43,7 +52,7 @@
     ],
     "description": "http_api_rest_template"
   },
-  
+
   "config_rest_extensao_vscode": {
     "prefix": "config_rest_extensao_vscode",
     "body": [
@@ -64,7 +73,7 @@
     "body": [
       " /* *************************************************** */",
       "",
-      "$0",  
+      "$0",
     ],
     "description": "divid"
   },
@@ -73,21 +82,9 @@
     "body": [
       "***************************************************",
       "",
-      "$0",  
+      "$0",
     ],
     "description": "divid_ESTRELAS"
   },
-  "tabela": {
-    "prefix": "tabela",
-    "body": [
-      "  # $1",
-      "",
-      "| Cabecalho | Cabecalho | Cabecalho | Cabecalho |",
-      "| --------- | --------- | --------- | --------- |",
-      "| lista     | lista     | lista     | lista     |",
-      "| lista     | lista     | lista     | lista     |"
-    ],
-    "description": "tabela"
-  }
 
 }

@@ -4,7 +4,7 @@
   },
   "editor.lineHeight": 24,
   "editor.tabSize": 2, // TAB IDENTACAO PADRAO.
-  "update.mode": "none", // atualizar vscode : "none" nao pede mais > "default" < fica avisando. 
+  "update.mode": "none", // atualizar vscode : "none" nao pede mais > "default" < fica avisando.
   "zenMode.silentNotifications": false,
   "editor.wordWrap": "on",
   "editor.matchBrackets": "never",
@@ -19,7 +19,9 @@
   "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
-  
+  "files.trimTrailingWhitespace": true, // espaço a direita removido
+  "editor.trimAutoWhitespace": true, // relacioando espaço
+
   // TERMINAL
   "terminal.integrated.fontSize": 14,
   "workbench.panel.defaultLocation": "bottom", // ativar menu sibebar de atividades
@@ -67,7 +69,7 @@
   },
   // LINGUAGENS:
   // TYPESCRIPT
-  "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib", 
+  "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib",
   // MOSTRAR AO VSC O TS GLOBAL PARA O DENO
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -78,7 +80,7 @@
   "deno.enable": true, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
   "deno.lint": true,
   "editor.defaultFormatter": "denoland.vscode-deno",
-  
+
   // Material icon theme extension
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.folders.theme": "classic",
@@ -98,10 +100,10 @@
   },
   "git.ignoreRebaseWarning": true,
   "workbench.sideBar.location": "right", // MOVE BARRA BOTOES LATERIAS
-  
+
   // PYTHON RZJ
   "python.languageServer": "Pylance", // AVISO LINTER
-  // Javascript 
+  // Javascript
   "javascript.preferences.quoteStyle": "single",
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "prompt",
@@ -141,5 +143,5 @@
     "editor.wordBasedSuggestions": false
   },
   "dart.openDevTools": "flutter"
-  
+
 }

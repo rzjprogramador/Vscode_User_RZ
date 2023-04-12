@@ -2,7 +2,7 @@
 // tester
 [
   {
-    "key": "shift+f5",
+    "key": "f5",
     "command": "code-runner.run"
   },
   {
@@ -21,12 +21,12 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+n",
+    "key": "shift+n",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+t",
+    "key": "F4",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
@@ -36,15 +36,11 @@
     "when": "terminal.active"
   },
   {
-    "key": "ctrl+shift+k",
+    "key": "shift+f12",
     "command": "workbench.action.quit"
   },
   {
-    "key": "ctrl+q",
-    "command": "-workbench.action.quit"
-  },
-  {
-    "key": "ctrl+q",
+    "key": "f12",
     "command": "workbench.action.closeActiveEditor"
   },
   {
@@ -52,7 +48,7 @@
     "command": "-workbench.action.closeActiveEditor"
   },
   {
-    "key": "ctrl+q",
+    "key": "f12",
     "command": "workbench.action.closeGroup",
     "when": "activeEditorGroupEmpty && multipleEditorGroups"
   },
@@ -62,7 +58,7 @@
     "when": "activeEditorGroupEmpty && multipleEditorGroups"
   },
   {
-    "key": "ctrl+q",
+    "key": "f12",
     "command": "workbench.action.terminal.killEditor",
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
   },
@@ -72,7 +68,7 @@
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
   },
   {
-    "key": "ctrl+shift+q",
+    "key": "f12 f12",
     "command": "workbench.action.closeEditorsInGroup"
   },
   {
@@ -86,5 +82,131 @@
   {
     "key": "ctrl+j",
     "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "shift+f11",
+    "command": "extension.node-debug.startWithStopOnEntry",
+    "when": "!inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'node' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-node'"
+  },
+  {
+    "key": "f11",
+    "command": "-extension.node-debug.startWithStopOnEntry",
+    "when": "!inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'node' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-extensionHost' || !inDebugMode && activeViewlet == 'workbench.view.debug' && debugConfigurationType == 'pwa-node'"
+  },
+  {
+    "key": "shift+f11",
+    "command": "workbench.action.debug.stepInto",
+    "when": "debugState != 'inactive'"
+  },
+  {
+    "key": "f11",
+    "command": "-workbench.action.debug.stepInto",
+    "when": "debugState != 'inactive'"
+  },
+  {
+    "key": "shift+f11",
+    "command": "workbench.action.toggleFullScreen",
+    "when": "!isIOS"
+  },
+  {
+    "key": "f11",
+    "command": "-workbench.action.toggleFullScreen",
+    "when": "!isIOS"
+  },
+  {
+    "key": "f11",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "f1",
+    "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "f1",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "shift+v",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "ctrl+\\",
+    "command": "-workbench.action.splitEditor"
+  },
+  {
+    "key": "shift+f12",
+    "command": "editor.gotoNextSymbolFromResult",
+    "when": "hasSymbols"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.gotoNextSymbolFromResult",
+    "when": "hasSymbols"
+  },
+  {
+    "key": "shift+f12",
+    "command": "goToNextReference",
+    "when": "inReferenceSearchEditor || referenceSearchVisible"
+  },
+  {
+    "key": "f12",
+    "command": "-goToNextReference",
+    "when": "inReferenceSearchEditor || referenceSearchVisible"
+  },
+  {
+    "key": "shift+f12",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "shift+f12",
+    "command": "editor.action.peekImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "ctrl+shift+f12",
+    "command": "-editor.action.peekImplementation",
+    "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f6",
+    "command": "workbench.action.terminal.focusAtIndex5"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+shift+alt+n",
+    "command": "workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "-workbench.action.newWindow"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "-editor.action.selectHighlights",
+    "when": "editorFocus"
   }
 ]
