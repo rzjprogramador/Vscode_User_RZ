@@ -21,15 +21,30 @@
     "when": "textInputFocus && !editorReadonly"
   },
   {
-    "key": "shift+n",
+    "key": "f6",
+    "command": "workbench.action.terminal.focusAtIndex5"
+  },
+  {
+    "key": "f7",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
+  {
+    "key": "f8",
+    "command": "editor.action.selectHighlights",
+    "when": "editorFocus"
+  },
+ bla bla bla
+ bla bla bla
+ bla bla bla
   {
     "key": "F4",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
+  bla bla bla
+  bla bla bla
+  bla bla bla
   {
     "key": "ctrl+shift+[BracketLeft]",
     "command": "-workbench.action.terminal.toggleTerminal",
@@ -178,10 +193,6 @@
     "when": "editorHasImplementationProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
   },
   {
-    "key": "f6",
-    "command": "workbench.action.terminal.focusAtIndex5"
-  },
-  {
     "key": "ctrl+f",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
@@ -198,11 +209,6 @@
   {
     "key": "ctrl+shift+n",
     "command": "-workbench.action.newWindow"
-  },
-  {
-    "key": "ctrl+shift+n",
-    "command": "editor.action.selectHighlights",
-    "when": "editorFocus"
   },
   {
     "key": "ctrl+shift+l",
