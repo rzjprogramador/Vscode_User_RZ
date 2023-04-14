@@ -20,17 +20,18 @@
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
+  // foo foo foo foo
   {
-    "key": "f6",
+    "key": "ctrl+f5",
     "command": "workbench.action.terminal.focusAtIndex5"
   },
   {
-    "key": "f7",
+    "key": "ctrl+Home",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "f8",
+    "key": "ctrl+End",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
   },
@@ -208,5 +209,45 @@
     "key": "ctrl+shift+l",
     "command": "-editor.action.selectHighlights",
     "when": "editorFocus"
+  },
+  {
+    "key": "shift+home shift+home",
+    "command": "interactive.scrollToTop",
+    "when": "resourceScheme == 'vscode-interactive'"
+  },
+  {
+    "key": "ctrl+home",
+    "command": "-interactive.scrollToTop",
+    "when": "resourceScheme == 'vscode-interactive'"
+  },
+  {
+    "key": "shift+home shift+home",
+    "command": "cursorTop",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+home",
+    "command": "-cursorTop",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+home shift+home",
+    "command": "notebook.focusTop",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "ctrl+home",
+    "command": "-notebook.focusTop",
+    "when": "notebookEditorFocused && !inputFocus"
+  },
+  {
+    "key": "shift+home shift+home",
+    "command": "cursorTopSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+home",
+    "command": "-cursorTopSelect",
+    "when": "textInputFocus"
   }
 ]
