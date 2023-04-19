@@ -26,12 +26,12 @@
     "command": "workbench.action.terminal.focusAtIndex5"
   },
   {
-    "key": "ctrl+Home",
+    "key": "ctrl+, ctrl+,",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+End",
+    "key": "ctrl+. ctrl+.",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
   },
@@ -46,7 +46,7 @@
     "when": "terminal.active"
   },
   {
-    "key": "shift+f12",
+    "key": "ctrl+shift+f12",
     "command": "workbench.action.quit"
   },
   {
@@ -132,7 +132,7 @@
     "command": "-workbench.action.showCommands"
   },
   {
-    "key": "f1",
+    "key": "shift+f1",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -249,5 +249,9 @@
     "key": "ctrl+shift+home",
     "command": "-cursorTopSelect",
     "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+f12",
+    "command": "workbench.action.terminal.killAll"
   }
 ]
