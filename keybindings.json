@@ -132,7 +132,7 @@
     "command": "-workbench.action.showCommands"
   },
   {
-    "key": "shift+f1",
+    "key": "ctrl+e",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
