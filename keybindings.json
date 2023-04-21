@@ -92,7 +92,7 @@
     "command": "-workbench.action.showCommands"
   },
   {
-    "key": "\\ e",
+    "key": "alt+e",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -100,7 +100,7 @@
     "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "alt+v alt+v",
+    "key": "alt+v",
     "command": "workbench.action.splitEditor"
   },
   {
@@ -108,13 +108,8 @@
     "command": "-workbench.action.splitEditor"
   },
   {
-    "key": "ctrl+f",
+    "key": "alt+f",
     "command": "actions.find",
-    "when": "editorFocus || editorIsOpen"
-  },
-  {
-    "key": "ctrl+f",
-    "command": "-actions.find",
     "when": "editorFocus || editorIsOpen"
   },
   {
