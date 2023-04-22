@@ -1,12 +1,13 @@
 // Place your key bindings in this file to override the defaultsauto[]
-// tester
+//  \ \ \ .\ \tes \ter mais pal\\\avras\ dddd dddd\
+
 [
   {
     "key": "f5",
     "command": "code-runner.run"
   },
   {
-    "key": "ctrl+\\",
+    "key": "space \\",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
