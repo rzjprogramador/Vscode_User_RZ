@@ -26,21 +26,21 @@
     "command": "workbench.action.terminal.focusAtIndex5"
   },
   {
-    "key": "alt+;",
+    "key": "f1 ;",
     "command": "workbench.action.terminal.kill"
   },
   {
-    "key": "alt+,",
+    "key": "f1 ,",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "alt+.",
+    "key": "f1 .",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
   },
   {
-    "key": "alt+t",
+    "key": "f1 t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
@@ -60,11 +60,11 @@
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
   },
   {
-    "key": "alt+q",
+    "key": "f1 q",
     "command": "workbench.action.closeEditorsInGroup"
   },
   {
-    "key": "alt+k",
+    "key": "f1 w",
     "command": "workbench.action.closeActiveEditor"
   },
   {
@@ -80,7 +80,7 @@
     "command": "-workbench.action.togglePanel"
   },
   {
-    "key": "alt+e",
+    "key": "f1 e",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -88,7 +88,7 @@
     "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "alt+v",
+    "key": "f1 v",
     "command": "workbench.action.splitEditor"
   },
   {
@@ -96,7 +96,7 @@
     "command": "-workbench.action.splitEditor"
   },
   {
-    "key": "alt+f",
+    "key": "f1 f",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   },
@@ -152,5 +152,13 @@
     "key": "ctrl+shift+home",
     "command": "-cursorTopSelect",
     "when": "textInputFocus"
+  },
+  {
+    "key": "shift+f1",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "f1",
+    "command": "-workbench.action.showCommands"
   }
 ]

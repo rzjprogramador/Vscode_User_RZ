@@ -15,6 +15,18 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+  "model_class_custom_error_ts": {
+    "prefix": "model_class_custom_error_ts",
+    "body": [
+      "export class $1InvalidEntity extends Error {",
+      "  constructor(msg: string) {",
+      "    super(`\\${msg}`);",
+      "    this.name = `InvalidEntity`;",
+      "  }",
+      "}"
+    ],
+    "description": "model_class_custom_error_ts"
+  },
   "jsdoc doc ": {
     "prefix": "jsdoc doc",
     "body": [
