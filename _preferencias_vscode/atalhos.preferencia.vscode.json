@@ -1,0 +1,104 @@
+[
+  {
+    "acao": "deletar_linha",
+    "atalho": "F1+d",
+    "significado": "d de delete",
+    "comando": "editor.action.deleteLines"
+  },
+  {
+    "acao": "abreFecha_explore_arquivos",
+    "atalho": "F1+e",
+    "significado": "'E' de explorer",
+    "comando": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "acao": "fechar_grupo_arquivos_abertos",
+    "atalho": "F1+q",
+    "significado": "quit :: fechar fica mais proximo fechar tudo com q",
+    "comando": "workbench.action.closeEditorsInGroup"
+  },
+  {
+    "acao": "fechar_arquivo_em_foco",
+    "atalho": "F1+w",
+    "significado": "",
+    "comando": "workbench.action.closeActiveEditor"
+  },
+  {
+    "acao": "vsplit editor",
+    "atalho": "F1+v",
+    "significado": "TODO",
+    "comando": "workbench.action.splitEditor"
+  },
+  {
+    "acao": "selecionar_tudo",
+    "atalho": "ctrl+a",
+    "significado": "copy all",
+    "comando": "TODO"
+  },
+  {
+    "acao": "fechar_kill_terminal_no_foco",
+    "atalho": "F1+;",
+    "significado": "",
+    "comando": "workbench.action.terminal.kill"
+  },
+  {
+    "acao": "toogle_abrir_e_fechar_terminal",
+    "atalho": "F1+t",
+    "significado": "TODO",
+    "comando": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "acao": "ocorrencia_atual",
+    "atalho": "F1+,",
+    "significado": "ctrl menor que",
+    "comando": "editor.action.addSelectionToNextFindMatch"
+  },
+  {
+    "acao": "ocorrencias_todas",
+    "atalho": "F1+.",
+    "significado": "ctrl maior que",
+    "comando": "editor.action.selectHighlights"
+  },
+  {
+    "acao": "pesquisa_matchL5",
+    "atalho": "F1+f",
+    "significado": "f de find",
+    "comando": "actions.find"
+  },
+  {
+    "acao": "mostrar_todos_comandos_inclusive_de_plugins",
+    "atalho": "shift+f1",
+    "significado": "TODO",
+    "comando": "workbench.action.showCommands"
+  },
+  {
+    "acao": "transformar_Maiuscula_ou_minuscula",
+    "atalho": "TODO",
+    "significado": "TODO",
+    "comando": "TODO"
+  },
+  {
+    "acao": "copiar linha para baixo",
+    "atalho": "F1+DownArrow",
+    "significado": "TODO",
+    "comando": "editor.action.copyLinesDownAction"
+  },
+  {
+    "acao": "copiar linha para cima",
+    "atalho": "F1+UpArrow",
+    "significado": "TODO",
+    "comando": "editor.action.copyLinesUpAction"
+  },
+  {
+    "acao": "comentar linha toggle",
+    "atalho": "F1+\\",
+    "significado": "TODO",
+    "comando": "editor.action.commentLine"
+  },
+  {
+    "acao": "comentar bloco toggle",
+    "atalho": "crt+shift+\\",
+    "significado": "TODO",
+    "comando": "editor.action.blockComment"
+  }
+]

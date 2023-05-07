@@ -2,7 +2,10 @@ interface Props {
   texto: string;
   numeroInteiro: number;
 }
-// foo
-// foo
-// foo; 
-console.log("Ola"); 
+
+console.log("Ola");
+
+/* bar
+foo
+bar
+foo */

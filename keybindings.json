@@ -7,7 +7,7 @@
     "command": "code-runner.run"
   },
   {
-    "key": "ctrl+\\",
+    "key": "f1 \\",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },
@@ -17,7 +17,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+d",
+    "key": "f1 d",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
@@ -160,5 +160,30 @@
   {
     "key": "f1",
     "command": "-workbench.action.showCommands"
+  },
+  {
+    "key": "f1 down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+down",
+    "command": "-editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f1 up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+alt+up",
+    "command": "-editor.action.copyLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "-editor.action.blockComment",
+    "when": "editorTextFocus && !editorReadonly"
   }
 ]
