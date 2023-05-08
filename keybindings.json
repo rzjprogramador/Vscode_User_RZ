@@ -7,7 +7,7 @@
     "command": "code-runner.run"
   },
   {
-    "key": "f1 \\",
+    "key": "ctrl+\\",
     "command": "editor.action.commentLine",
     "when": "editorTextFocus && !editorReadonly"
   },

@@ -91,12 +91,12 @@
   },
   {
     "acao": "comentar linha toggle",
-    "atalho": "F1+\\",
+    "atalho": "ctrl+\\",
     "significado": "TODO",
     "comando": "editor.action.commentLine"
   },
   {
-    "acao": "comentar bloco toggle",
+    "acao": "comentar bloco Selecionado toggle : obs: tem que selecionar",
     "atalho": "crt+shift+\\",
     "significado": "TODO",
     "comando": "editor.action.blockComment"
