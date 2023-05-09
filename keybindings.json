@@ -17,7 +17,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "f1 d",
+    "key": "ctrl+d",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
@@ -30,17 +30,17 @@
     "command": "workbench.action.terminal.kill"
   },
   {
-    "key": "f1 ,",
+    "key": "ctrl+shift+,",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "f1 .",
+    "key": "ctrl+shift+.",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
   },
   {
-    "key": "f1 t",
+    "key": "ctrl+t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
@@ -60,11 +60,11 @@
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
   },
   {
-    "key": "f1 q",
+    "key": "ctrl+q",
     "command": "workbench.action.closeEditorsInGroup"
   },
   {
-    "key": "f1 w",
+    "key": "ctrl+w",
     "command": "workbench.action.closeActiveEditor"
   },
   {
@@ -80,7 +80,7 @@
     "command": "-workbench.action.togglePanel"
   },
   {
-    "key": "f1 e",
+    "key": "ctrl+e",
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
@@ -88,7 +88,7 @@
     "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "f1 v",
+    "key": "ctrl+shift+v",
     "command": "workbench.action.splitEditor"
   },
   {
@@ -162,18 +162,18 @@
     "command": "-workbench.action.showCommands"
   },
   {
-    "key": "f1 down",
+    "key": "ctrl+shift+down",
     "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },
   {
     "key": "ctrl+shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "f1 up",
-    "command": "editor.action.copyLinesUpAction",
     "when": "editorTextFocus && !editorReadonly"
   },
   {

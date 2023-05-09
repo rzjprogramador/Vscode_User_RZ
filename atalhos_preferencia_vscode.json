@@ -1,31 +1,36 @@
 [
   {
+    "leader": "ctrl",
+    "leader_Segundaria": "ctrl+shift",
+    "leader_Movimentacao": "alt"
+  },
+  {
     "acao": "deletar_linha",
-    "atalho": "F1+d",
+    "atalho": "ctrl+d",
     "significado": "d de delete",
     "comando": "editor.action.deleteLines"
   },
   {
     "acao": "abreFecha_explore_arquivos",
-    "atalho": "F1+e",
+    "atalho": "ctrl+e",
     "significado": "'E' de explorer",
     "comando": "workbench.action.toggleSidebarVisibility"
   },
   {
     "acao": "fechar_grupo_arquivos_abertos",
-    "atalho": "F1+q",
+    "atalho": "ctrl+q",
     "significado": "quit :: fechar fica mais proximo fechar tudo com q",
     "comando": "workbench.action.closeEditorsInGroup"
   },
   {
     "acao": "fechar_arquivo_em_foco",
-    "atalho": "F1+w",
+    "atalho": "ctrl+w",
     "significado": "",
     "comando": "workbench.action.closeActiveEditor"
   },
   {
     "acao": "vsplit editor",
-    "atalho": "F1+v",
+    "atalho": "ctrl+shift+v",
     "significado": "TODO",
     "comando": "workbench.action.splitEditor"
   },
@@ -43,19 +48,19 @@
   },
   {
     "acao": "toogle_abrir_e_fechar_terminal",
-    "atalho": "F1+t",
+    "atalho": "ctrl+t",
     "significado": "TODO",
     "comando": "workbench.action.terminal.toggleTerminal"
   },
   {
     "acao": "ocorrencia_atual",
-    "atalho": "F1+,",
+    "atalho": "ctrl+shift+,",
     "significado": "ctrl menor que",
     "comando": "editor.action.addSelectionToNextFindMatch"
   },
   {
     "acao": "ocorrencias_todas",
-    "atalho": "F1+.",
+    "atalho": "ctrl+shift+.",
     "significado": "ctrl maior que",
     "comando": "editor.action.selectHighlights"
   },
@@ -78,14 +83,14 @@
     "comando": "TODO"
   },
   {
-    "acao": "copiar linha para baixo",
-    "atalho": "F1+DownArrow",
+    "acao": "copiar e colar linha para baixo",
+    "atalho": "ctrl+shift+down",
     "significado": "TODO",
     "comando": "editor.action.copyLinesDownAction"
   },
   {
-    "acao": "copiar linha para cima",
-    "atalho": "F1+UpArrow",
+    "acao": "copiar e colar linha para cima",
+    "atalho": "ctrl+shift+up",
     "significado": "TODO",
     "comando": "editor.action.copyLinesUpAction"
   },
