@@ -88,7 +88,7 @@
     "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "ctrl+shift+v",
+    "key": "alt+\\",
     "command": "workbench.action.splitEditor"
   },
   {

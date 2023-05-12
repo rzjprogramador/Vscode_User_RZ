@@ -30,7 +30,7 @@
   },
   {
     "acao": "vsplit editor",
-    "atalho": "ctrl+shift+v",
+    "atalho": "alt+\\",
     "significado": "TODO",
     "comando": "workbench.action.splitEditor"
   },
