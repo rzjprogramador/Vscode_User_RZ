@@ -54,14 +54,14 @@
   },
   {
     "acao": "ocorrencia_atual",
-    "atalho": "ctrl+shift+,",
-    "significado": "ctrl menor que",
+    "atalho": "alt+,",
+    "significado": "alt menor que",
     "comando": "editor.action.addSelectionToNextFindMatch"
   },
   {
     "acao": "ocorrencias_todas",
-    "atalho": "ctrl+shift+.",
-    "significado": "ctrl maior que",
+    "atalho": "alt+.",
+    "significado": "alt maior que",
     "comando": "editor.action.selectHighlights"
   },
   {

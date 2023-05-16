@@ -30,12 +30,12 @@
     "command": "workbench.action.terminal.kill"
   },
   {
-    "key": "ctrl+shift+,",
+    "key": "alt+,",
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+.",
+    "key": "alt+.",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
   },
