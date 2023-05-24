@@ -1,12 +1,17 @@
 interface Props {
-  texto: string;
-  numeroInteiro: number;
+  texto: string
+  numeroInteiro: number
 }
 
-const objeto = {    texto:  "foo1"  ,    numeroInteiro:    10     }
+const objeto = { texto: 'foo1', numeroInteiro: 10 }
 
-console.log("Ola");
-console.log(objeto    );
+function foo() {
+  return 'foo'
+}
+
+console.log('Ola')
+console.log(objeto)
+console.log(foo())
 
 /*
   bar

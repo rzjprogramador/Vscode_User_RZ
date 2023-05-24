@@ -11,8 +11,8 @@
   "git.autofetch": true,
   // EDITOR
   // FORMATADOR DEFAULT GLOBAL VSCODE
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER PADRAO GLOBAL
-  "editor.formatOnSave": true, // PADRAO GLOBAL AUTOSALVE
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER PADRAO GLOBAL >> esbenp.prettier-vscode OU vscode.typescript-language-features
+  "editor.formatOnSave": true, // PADRAO GLOBAL AUTOSAVE
 
   // CONFIG GLOBAL DO PRETTIER
   "prettier.configPath": ".prettierrc.json", // BUSCAR O PRETTIERRC CONFIG GLOBAL NA PASTA VSCODE
@@ -77,7 +77,6 @@
   },
   "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib",
   // MOSTRAR AO VSC O TS GLOBAL PARA O DENO
-  "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
 
