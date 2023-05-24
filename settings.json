@@ -1,6 +1,6 @@
 {
   "workbench.colorCustomizations": {
-    "tab.activeBackground": "#250069" ,/* tabs superior ativa */
+    "tab.activeBackground": "#250069" /* tabs superior ativa */
   },
   "editor.lineHeight": 24,
   "editor.tabSize": 2, // TAB IDENTACAO PADRAO.
@@ -10,15 +10,12 @@
   "editor.matchBrackets": "never",
   "git.autofetch": true,
   // EDITOR
-  "editor.rulers": [
-    135
-    ], // largura régua do editor
+  "editor.rulers": [135], // largura régua do editor
 
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
   "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true, // espaço a direita removido
   "editor.trimAutoWhitespace": true, // relacioando espaço
 
@@ -77,20 +74,15 @@
 
   // PLATAFORMAS_RUNTIMES
   // DENO
-  "deno.enable": true, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
+  "deno.enable": false, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
   "deno.lint": true,
-  "editor.defaultFormatter": "denoland.vscode-deno",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // Material icon theme extension
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.folders.color": "#6273a6",
-  // CSpell checker extension
-  "cSpell.enabled": false,
-  "cSpell.language": "en,pt,pt_BR",
-  "cSpell.enableFiletypes": [
-    "shellscript"
-  ],
+
   // XML Language Support by Red Hat
   "redhat.telemetry.enabled": true,
   "bracket-pair-colorizer-2.depreciation-notice": false,
@@ -100,30 +92,24 @@
   },
   "git.ignoreRebaseWarning": true,
   "workbench.sideBar.location": "right", // MOVE BARRA BOTOES LATERIAS
+  "liveServer.settings.donotShowInfoMsg": true,
+  // FORMATADOR DEFAULT GLOBAL VSCODE
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER PADRAO GLOBAL
+  "editor.formatOnSave": true, // PADRAO GLOBAL AUTOSALVE
 
+  // CONFIG GLOBAL DO PRETTIER
+  "prettier.configPath": ".prettierrc.json", // BUSCAR O PRETTIERRC CONFIG GLOBAL NA PASTA VSCODE
+
+  // LINGUAGENS_CONFIG
   // PYTHON RZJ
   "python.languageServer": "Pylance", // AVISO LINTER
+
   // Javascript
   "javascript.preferences.quoteStyle": "single",
   "javascript.validate.enable": false,
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "javascript.suggest.autoImports": true,
-  "[javascript]": {
-    "editor.suggest.showKeywords": false
-  },
-  "liveServer.settings.donotShowInfoMsg": true,
-  // COLORIZE
-  "colorize.languages": [
-    "javascriptreact",
-    "typescript",
-    "javascript",
-    "css",
-    "scss"
-  ],
-  "colorize.colorized_colors": [
-    "HEXA",
-    "HSL"
-  ],
+
   // LINGUAGEM: GOLANG
   "go.useLanguageServer": true,
   "gopls": {
@@ -133,15 +119,15 @@
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
-    "editor.rulers": [
-      80
-    ],
+    "editor.rulers": [80],
     "editor.selectionHighlight": false,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.openDevTools": "flutter"
-
+  "dart.openDevTools": "flutter",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
 }
