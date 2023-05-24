@@ -92,9 +92,8 @@
 
   // PLATAFORMAS_RUNTIMES
   // DENO
-  "deno.enable": false, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
+  "deno.enable": true, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
   "deno.lint": true,
-  // "editor.defaultFormatter": "esbenp.prettier-vscode",
 
   // Material icon theme extension
   "material-icon-theme.hidesExplorerArrows": true,

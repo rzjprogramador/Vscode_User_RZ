@@ -3,10 +3,10 @@ interface Props {
   numeroInteiro: number
 }
 
-const objeto = { texto: 'foo1', numeroInteiro: 10 }
+const objeto: Props = { texto: 'foo1', numeroInteiro: 10 }
 
 function foo() {
-  return 'foo'
+  return 'foobar'
 }
 
 console.log('Ola')
