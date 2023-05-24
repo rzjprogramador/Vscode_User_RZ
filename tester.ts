@@ -19,3 +19,5 @@ console.log(foo())
   bar
   foo
 */
+
+export default 1

@@ -92,7 +92,7 @@
 
   // PLATAFORMAS_RUNTIMES
   // DENO
-  "deno.enable": true, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
+  "deno.enable": false, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
   "deno.lint": true,
   "deno.unstable": true,
 
