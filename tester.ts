@@ -3,9 +3,14 @@ interface Props {
   numeroInteiro: number;
 }
 
-console.log("Ola");
+const objeto = {    texto:  "foo1"  ,    numeroInteiro:    10     }
 
-/* bar
-foo
-bar
-foo */
+console.log("Ola");
+console.log(objeto    );
+
+/*
+  bar
+  foo
+  bar
+  foo
+*/

@@ -10,8 +10,13 @@
   "editor.matchBrackets": "never",
   "git.autofetch": true,
   // EDITOR
-  "editor.rulers": [135], // largura régua do editor
+  // FORMATADOR DEFAULT GLOBAL VSCODE
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER PADRAO GLOBAL
+  "editor.formatOnSave": true, // PADRAO GLOBAL AUTOSALVE
 
+  // CONFIG GLOBAL DO PRETTIER
+  "prettier.configPath": ".prettierrc.json", // BUSCAR O PRETTIERRC CONFIG GLOBAL NA PASTA VSCODE
+  "editor.rulers": [130], // largura régua do editor
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
@@ -66,11 +71,25 @@
   },
   // LINGUAGENS:
   // TYPESCRIPT
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
   "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib",
   // MOSTRAR AO VSC O TS GLOBAL PARA O DENO
   "typescript.preferences.quoteStyle": "single",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.autoImports": true,
+
+  // JAVASCRIPT
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.suggest.autoImports": true,
 
   // PLATAFORMAS_RUNTIMES
   // DENO
@@ -93,22 +112,10 @@
   "git.ignoreRebaseWarning": true,
   "workbench.sideBar.location": "right", // MOVE BARRA BOTOES LATERIAS
   "liveServer.settings.donotShowInfoMsg": true,
-  // FORMATADOR DEFAULT GLOBAL VSCODE
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER PADRAO GLOBAL
-  "editor.formatOnSave": true, // PADRAO GLOBAL AUTOSALVE
-
-  // CONFIG GLOBAL DO PRETTIER
-  "prettier.configPath": ".prettierrc.json", // BUSCAR O PRETTIERRC CONFIG GLOBAL NA PASTA VSCODE
 
   // LINGUAGENS_CONFIG
   // PYTHON RZJ
   "python.languageServer": "Pylance", // AVISO LINTER
-
-  // Javascript
-  "javascript.preferences.quoteStyle": "single",
-  "javascript.validate.enable": false,
-  "javascript.updateImportsOnFileMove.enabled": "prompt",
-  "javascript.suggest.autoImports": true,
 
   // LINGUAGEM: GOLANG
   "go.useLanguageServer": true,
@@ -126,8 +133,5 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.openDevTools": "flutter",
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  }
+  "dart.openDevTools": "flutter"
 }
