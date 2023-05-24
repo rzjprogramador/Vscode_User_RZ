@@ -92,7 +92,7 @@
 
   // PLATAFORMAS_RUNTIMES
   // DENO
-  "deno.enable": false, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
+  "deno.enable": true, // deixar true :: mostra metatags, e é vital nas sugestoes de auto_importacao , deixar true - atarapalha o prettier mas é só colocar uma rquivo prettierrc em cada projeto que da certo.
   "deno.lint": true,
   "deno.unstable": true,
 
