@@ -12,6 +12,7 @@ marp: true
 
 1. [configuracoes deno] (https://github.com/denoland/vscode_deno/issues/789)
 1. deno test :
-   1. PARA RODAR ONLY SÓ TEST PATICULAR ```deno test <caminhoDesteArquivo>``
+   1. PARA RODAR ONLY SÓ TEST PATICULAR ```deno test <caminhoDesteArquivo>```
+   2. observacao apos terminar o test only marque para flalse eta opcao senao retorna erro nos test globais.
 ---
 
