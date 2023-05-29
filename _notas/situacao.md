@@ -11,4 +11,7 @@ marp: true
    1. incluir e excluir linter defina no deno.json por projeto
 
 1. [configuracoes deno] (https://github.com/denoland/vscode_deno/issues/789)
+1. deno test :
+   1. PARA RODAR ONLY SÓ TEST PATICULAR ```deno test <caminhoDesteArquivo>``
 ---
+
