@@ -9,14 +9,8 @@
   "editor.wordWrap": "on",
   "editor.matchBrackets": "never",
   "git.autofetch": true,
-  // EDITOR
-  // FORMATADOR DEFAULT GLOBAL VSCODE
-  "editor.defaultFormatter": "esbenp.prettier-vscode", // PRETTIER PADRAO GLOBAL >> esbenp.prettier-vscode OU vscode.typescript-language-features
-  "editor.formatOnSave": true, // PADRAO GLOBAL AUTOSAVE
 
-  // CONFIG GLOBAL DO PRETTIER
-  "prettier.configPath": ".prettierrc.json", // BUSCAR O PRETTIERRC CONFIG GLOBAL NA PASTA VSCODE
-  "editor.rulers": [130], // largura régua do editor
+  // EDITOR
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
@@ -70,19 +64,10 @@
     "$dir/*.go": "go"
   },
   // LINGUAGENS:
-  // TYPESCRIPT
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib",
-  // MOSTRAR AO VSC O TS GLOBAL PARA O DENO
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.suggest.autoImports": true,
 
-  // JAVASCRIPT
+  // JAVASCRIPT PARA TODOS JS
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "denoland.vscode-deno",
     "editor.formatOnSave": true
   },
   "javascript.preferences.quoteStyle": "single",
@@ -90,11 +75,27 @@
   "javascript.updateImportsOnFileMove.enabled": "prompt",
   "javascript.suggest.autoImports": true,
 
+  // TYPESCRIPT PARA TODOS TS : [ TS_ISOLADOS, DENO, ]
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno", // CONTROLA FORMATACAO DOS TS
+    "editor.formatOnSave": true
+  },
+  "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib",
+  // MOSTRAR AO VSC O TS GLOBAL PARA O DENO
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+
   // PLATAFORMAS_RUNTIMES
-  // DENO
-  "deno.enable": true, // deixar true :: mostra metatags, e é vital nas sugestoes de auto_importacao , deixar true - atarapalha o prettier mas é só colocar uma rquivo prettierrc em cada projeto que da certo.
+  // DENO : obs usa as configs do escopo typescript
+  "deno.enable": true, // deixar true :: mostra metatags, e é vital nas sugestoes de auto_importacao , deixar true - atrapalha o prettier mas é só colocar um arquivo prettierrc em cada projeto que da certo.
   "deno.lint": true,
   "deno.unstable": true,
+  "deno.config": "./deno.json",
+  // obs: formatador padrao apra deno esta no escopo [typescript]
 
   // Material icon theme extension
   "material-icon-theme.hidesExplorerArrows": true,
@@ -105,9 +106,6 @@
   "redhat.telemetry.enabled": true,
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
-  "[dockercompose]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "git.ignoreRebaseWarning": true,
   "workbench.sideBar.location": "right", // MOVE BARRA BOTOES LATERIAS
   "liveServer.settings.donotShowInfoMsg": true,
