@@ -10,5 +10,5 @@ marp: true
 1. por_projeto_deno_json:
    1. incluir e excluir linter defina no deno.json por projeto
 
-
+1. [configuracoes deno] (https://github.com/denoland/vscode_deno/issues/789)
 ---
