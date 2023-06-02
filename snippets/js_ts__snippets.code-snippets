@@ -15,6 +15,45 @@
   // 	],
   // 	"description": "Log output to console"
   // }
+
+  "Comentarios_comments_JsTs": {
+  "prefix": "Comentarios_comments_JsTs",
+  "body": [
+    "/**",
+    " * $1",
+    " *",
+    " */"
+  ],
+  "description": "Comentarios_comments_JsTs"
+},
+  "export_scope_ts": {
+    "prefix": "export_scope_ts",
+    "body": [
+      "export { type MeuTipo1, type MeuTipo2, minhaConstante, funcao, default as mudavelNaImportacao }"
+    ],
+    "description": "export_scope_ts"
+  },
+  "imports_global": {
+    "prefix": "imports_global",
+    "body": [
+      "\"@global\""
+    ],
+    "description": "imports_global"
+  },
+  "imports_rzModulesTS": {
+    "prefix": "imports_rzModulesTS",
+    "body": [
+      "\"@rzModulesTS\""
+    ],
+    "description": "imports_clienteFisico"
+  },
+  "imports_clienteFisico": {
+    "prefix": "imports_clienteFisico",
+    "body": [
+      "\"@clienteFisico\""
+    ],
+    "description": "imports_clienteFisico"
+  },
   "model_class_custom_error_ts": {
     "prefix": "model_class_custom_error_ts",
     "body": [
