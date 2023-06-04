@@ -26,7 +26,7 @@
     "command": "workbench.action.terminal.focusAtIndex5"
   },
   {
-    "key": "f1 ;",
+    "key": "ctrl+shift+alt+f1",
     "command": "workbench.action.terminal.kill"
   },
   {
@@ -60,7 +60,7 @@
     "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
   },
   {
-    "key": "ctrl+q",
+    "key": "f1",
     "command": "workbench.action.closeEditorsInGroup"
   },
   {
@@ -96,7 +96,7 @@
     "command": "-workbench.action.splitEditor"
   },
   {
-    "key": "f1 f",
+    "key": "shift+f1 ctrl+shift",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen"
   },
