@@ -18,13 +18,13 @@
   },
   {
     "acao": "fechar_grupo_arquivos_abertos",
-    "atalho": "ctrl+q",
+    "atalho": "f1",
     "significado": "quit :: fechar fica mais proximo fechar tudo com q",
     "comando": "workbench.action.closeEditorsInGroup"
   },
   {
     "acao": "fechar_arquivo_em_foco",
-    "atalho": "ctrl+w",
+    "atalho": "f3",
     "significado": "",
     "comando": "workbench.action.closeActiveEditor"
   },

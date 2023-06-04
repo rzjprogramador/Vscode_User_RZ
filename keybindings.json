@@ -64,7 +64,7 @@
     "command": "workbench.action.closeEditorsInGroup"
   },
   {
-    "key": "ctrl+w",
+    "key": "f3",
     "command": "workbench.action.closeActiveEditor"
   },
   {
