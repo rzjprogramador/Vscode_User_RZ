@@ -48,7 +48,7 @@
   },
   {
     "acao": "toogle_abrir_e_fechar_terminal",
-    "atalho": "ctrl+t",
+    "atalho": "f4 E ctrl+t",
     "significado": "TODO",
     "comando": "workbench.action.terminal.toggleTerminal"
   },

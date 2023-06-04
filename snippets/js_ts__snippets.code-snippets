@@ -1,8 +1,26 @@
 {
+  "titulo_e_Var_Comentado": {
+    "prefix": "titulo_e_Var_Comentado",
+    "body": [
+      "// ${1: foo} ============================================================",
+      "const ${1:foo} = "
+    ],
+    "description": "titulo_e_Var_Comentado"
+  },
+  "jsdoc_frases_uso_index_exportacoes": {
+    "prefix": "jsdoc_frases_uso_index_exportacoes",
+    "body": [
+      "/**",
+      " * @description este index traz o metodo { ${1:foo} } e seu contrato",
+      " * @exemple para utilizar este indexador:  1. import para uma variavel auxiliar. 2.  extrair o metodo { ${1:foo} } e o type contrato { ${2:foo} }",
+      " */"
+    ],
+    "description": "jsdoc_frases_uso_index_exportacoes"
+  },
   "import_LogConsole_RZJ": {
     "prefix": "import_LogConsole_RZJ",
     "body": [
-      "import { Log } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/modules/LogConsole/index.ts\";"
+      "port { Log as mkeLog } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/devToolsRZ/LogConsole/index.ts\";"
     ],
     "description": "import_LogConsole_RZJ"
   },
