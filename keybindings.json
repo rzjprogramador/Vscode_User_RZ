@@ -22,7 +22,8 @@
   {
     "key": "ctrl+d",
     "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
+    "when": "textInputFocus && !editorReadonly",
+    "args": "foo"
   },
   {
     "key": "f4",
@@ -31,162 +32,197 @@
   },
   {
     "key": "ctrl+f5",
-    "command": "workbench.action.terminal.focusAtIndex5"
+    "command": "workbench.action.terminal.focusAtIndex5",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+alt+f1",
-    "command": "workbench.action.terminal.kill"
+    "command": "workbench.action.terminal.kill",
+    "args": "foo"
   },
   {
     "key": "alt+,",
     "command": "editor.action.addSelectionToNextFindMatch",
-    "when": "editorFocus"
+    "when": "editorFocus",
+    "args": "foo"
   },
   {
     "key": "alt+.",
     "command": "editor.action.selectHighlights",
-    "when": "editorFocus"
+    "when": "editorFocus",
+    "args": "foo"
   },
   {
     "key": "f12",
     "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
+    "when": "terminal.active",
+    "args": "foo"
   },
   {
     "key": "ctrl+w",
     "command": "-workbench.action.closeGroup",
-    "when": "activeEditorGroupEmpty && multipleEditorGroups"
+    "when": "activeEditorGroupEmpty && multipleEditorGroups",
+    "args": "foo"
   },
   {
     "key": "ctrl+w",
     "command": "-workbench.action.terminal.killEditor",
-    "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'"
+    "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated && resourceScheme == 'vscode-terminal' || terminalEditorFocus && terminalFocus && terminalProcessSupported && resourceScheme == 'vscode-terminal'",
+    "args": "foo"
   },
   {
     "key": "f1",
-    "command": "workbench.action.closeEditorsInGroup"
+    "command": "workbench.action.closeEditorsInGroup",
+    "args": "foo"
   },
   {
     "key": "f3",
-    "command": "workbench.action.closeActiveEditor"
+    "command": "workbench.action.closeActiveEditor",
+    "args": "foo"
   },
   {
     "key": "ctrl+k w",
-    "command": "-workbench.action.closeEditorsInGroup"
+    "command": "-workbench.action.closeEditorsInGroup",
+    "args": "foo"
   },
   {
     "key": "ctrl+t",
-    "command": "workbench.action.togglePanel"
+    "command": "workbench.action.togglePanel",
+    "args": "foo"
   },
   {
     "key": "ctrl+j",
-    "command": "-workbench.action.togglePanel"
+    "command": "-workbench.action.togglePanel",
+    "args": "foo"
   },
   {
     "key": "ctrl+e",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "args": "foo"
   },
   {
     "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
+    "command": "-workbench.action.toggleSidebarVisibility",
+    "args": "foo"
   },
   {
     "key": "alt+\\",
-    "command": "workbench.action.splitEditor"
+    "command": "workbench.action.splitEditor",
+    "args": "foo"
   },
   {
     "key": "ctrl+\\",
-    "command": "-workbench.action.splitEditor"
+    "command": "-workbench.action.splitEditor",
+    "args": "foo"
   },
   {
     "key": "shift+f1 ctrl+shift",
     "command": "actions.find",
-    "when": "editorFocus || editorIsOpen"
+    "when": "editorFocus || editorIsOpen",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+alt+n",
-    "command": "workbench.action.newWindow"
+    "command": "workbench.action.newWindow",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+n",
-    "command": "-workbench.action.newWindow"
+    "command": "-workbench.action.newWindow",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+l",
     "command": "-editor.action.selectHighlights",
-    "when": "editorFocus"
+    "when": "editorFocus",
+    "args": "foo"
   },
   {
     "key": "shift+home shift+home",
     "command": "interactive.scrollToTop",
-    "when": "resourceScheme == 'vscode-interactive'"
+    "when": "resourceScheme == 'vscode-interactive'",
+    "args": "foo"
   },
   {
     "key": "ctrl+home",
     "command": "-interactive.scrollToTop",
-    "when": "resourceScheme == 'vscode-interactive'"
+    "when": "resourceScheme == 'vscode-interactive'",
+    "args": "foo"
   },
   {
     "key": "shift+home shift+home",
     "command": "cursorTop",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
+    "args": "foo"
   },
   {
     "key": "ctrl+home",
     "command": "-cursorTop",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
+    "args": "foo"
   },
   {
     "key": "shift+home shift+home",
     "command": "notebook.focusTop",
-    "when": "notebookEditorFocused && !inputFocus"
+    "when": "notebookEditorFocused && !inputFocus",
+    "args": "foo"
   },
   {
     "key": "ctrl+home",
     "command": "-notebook.focusTop",
-    "when": "notebookEditorFocused && !inputFocus"
+    "when": "notebookEditorFocused && !inputFocus",
+    "args": "foo"
   },
   {
     "key": "shift+home shift+home",
     "command": "cursorTopSelect",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+home",
     "command": "-cursorTopSelect",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
+    "args": "foo"
   },
   {
     "key": "shift+f1",
-    "command": "workbench.action.showCommands"
+    "command": "workbench.action.showCommands",
+    "args": "foo"
   },
   {
     "key": "f1",
-    "command": "-workbench.action.showCommands"
+    "command": "-workbench.action.showCommands",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+down",
     "command": "editor.action.copyLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+up",
     "command": "editor.action.copyLinesUpAction",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+alt+down",
     "command": "-editor.action.copyLinesDownAction",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+alt+up",
     "command": "-editor.action.copyLinesUpAction",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "foo"
   },
   {
     "key": "ctrl+shift+a",
     "command": "-editor.action.blockComment",
-    "when": "editorTextFocus && !editorReadonly"
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "foo"
   }
 ]
