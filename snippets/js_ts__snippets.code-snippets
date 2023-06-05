@@ -1,11 +1,20 @@
 {
-  "titulo_e_Var_Comentado": {
-    "prefix": "titulo_e_Var_Comentado",
+  "comment_Titulo1": {
+    "prefix": "comment_Titulo1",
     "body": [
       "// ${1: foo} ============================================================",
       "const ${1:foo} = "
     ],
-    "description": "titulo_e_Var_Comentado"
+    "description": "comment_Titulo1"
+  },
+  "comment_Titulo2": {
+    "prefix": "comment_Titulo2",
+    "body": [
+      "/* <<<",
+      "  * $1",
+      ">>> */"
+    ],
+    "description": "comment_Titulo2"
   },
   "jsdoc_frases_uso_index_exportacoes": {
     "prefix": "jsdoc_frases_uso_index_exportacoes",
@@ -20,7 +29,7 @@
   "import_LogConsole_RZJ": {
     "prefix": "import_LogConsole_RZJ",
     "body": [
-      "port { Log as mkeLog } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/devToolsRZ/LogConsole/index.ts\";"
+      "import { Log as mkeLog } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/devToolsRZ/LogConsole/index.ts\";"
     ],
     "description": "import_LogConsole_RZJ"
   },
@@ -49,44 +58,16 @@
     ],
     "description": "deps"
   },
-  "Comentarios_comments_JsTs": {
-  "prefix": "Comentarios_comments_JsTs",
+  "comment_1": {
+  "prefix": "comment_1",
   "body": [
     "/**",
     " * $1",
     " *",
     " */"
   ],
-  "description": "Comentarios_comments_JsTs"
+  "description": "comment_1"
 },
-  "export_scope_ts": {
-    "prefix": "export_scope_ts",
-    "body": [
-      "export { type MeuTipo1, type MeuTipo2, minhaConstante, funcao, default as mudavelNaImportacao }"
-    ],
-    "description": "export_scope_ts"
-  },
-  "imports_global": {
-    "prefix": "imports_global",
-    "body": [
-      "\"@global\""
-    ],
-    "description": "imports_global"
-  },
-  "imports_rzModulesTS": {
-    "prefix": "imports_rzModulesTS",
-    "body": [
-      "\"@rzModulesTS\""
-    ],
-    "description": "imports_clienteFisico"
-  },
-  "imports_clienteFisico": {
-    "prefix": "imports_clienteFisico",
-    "body": [
-      "\"@clienteFisico\""
-    ],
-    "description": "imports_clienteFisico"
-  },
   "model_class_custom_error_ts": {
     "prefix": "model_class_custom_error_ts",
     "body": [
@@ -124,7 +105,7 @@
       "const inputSut = 'foo'",
       "",
       "Deno.test({",
-      "  name: \"deve retornar \",",
+      "  name: \"deve retornar ->  && .\",",
       "  only: false,",
       "  async fn() {",
       "    // const input = inputSut;",
@@ -136,7 +117,7 @@
       "",
       "});",
       "",
-      "Deno.test(\"[ deve retornar \", () => {",
+      "Deno.test(\"[ deve retornar ->  && .\", () => {",
       "  const input = inputSut;",
       "  const where = sut(input);",
       "  const assertion: any = \"foo\";",
@@ -166,7 +147,7 @@
     "prefix": "test_deno_SUITE_suite",
     "body": [
       "Deno.test({",
-      "  name: \"deve retornar \",",
+      "  name: \"deve retornar ->  && .\",",
       "  only: false,",
       "  async fn() {",
       "    // const input = inputSut;",
@@ -195,37 +176,15 @@
     ],
     "description": "ignore_ts_erros"
   },
-  "comment_oficial": {
+  "auto_export_classe_instanciada_em_objeto": {
     "scope": "javascript,typescript",
-    "prefix": "comment_oficial",
-    "body": [
-      "/**",
-      " * $0",
-      " */"
-    ],
-    "description": "comment_oficial"
-  },
-
-  "auto export classe controller": {
-    "scope": "javascript,typescript",
-    "prefix": "auto export classe controller",
+    "prefix": "auto_export_classe_instanciada_em_objeto",
     "body": [
       "export default new ${1}()"
     ],
-    "description": "auto export classe controller"
+    "description": "auto_export_classe_instanciada_em_objeto"
   },
-  "divid": {
-    "scope": "javascript,typescript",
-    "prefix": "divid",
-    "body": [
-      "",
-      "/* ---------------------- // ---------------------- */",
-      "/* $0 */",
-      "//"
-    ],
-    "description": "divid"
-  },
-  "tipagem js": {
+  "tipagem_js": {
     "scope": "javascript,typescript",
     "prefix": "type",
     "body": [
@@ -237,25 +196,8 @@
       "",
       ""
     ],
-    "description": "tipagem js"
+    "description": "tipagem_js"
   },
-  "metodo__interface--ts": {
-    "scope": "javascript,typescript",
-    "prefix": "metodo__interface--ts",
-    "body": [
-      "async ${1:metodo}: () => Promise<${2: tipo}[]>"
-    ],
-    "description": "method__interface--ts"
-  },
-  "metodo__classe--ts": {
-    "scope": "javascript,typescript",
-    "prefix": "metodo__classe--ts",
-    "body": [
-      "async ${1:metodo}(): Promise<${2: tipo}[]> {}"
-    ],
-    "description": "method__interface--ts"
-  },
-  //
   "tester_test_node_rzj": {
     "scope": "javascript,typescript",
     "prefix": "tester test node",
@@ -297,45 +239,7 @@
     ],
     "description": "test tester node"
   },
-  "describe_fail_tester": {
-    "scope": "javascript,typescript",
-    "prefix": "describe fail tester",
-    "body": [
-      "describe.todo('_ >> [Fail]', () => {",
-      "const sut = makeSut",
-      "",
-      "test(`nao deve _.`, async () => {",
-      "const current = null",
-      "const expected = null",
-      "// console.log('OBJ CRIADO >> ', current)",
-      "// console.log('A RESPOSTA DA EXPECTATIVA SERÁ >> ', expected)",
-      "assert(expected === true)",
-      "})",
-      "",
-      "})"
-    ],
-    "description": "describe_fail_tester"
-  },
-  "describe_sucess_tester": {
-    "scope": "javascript,typescript",
-    "prefix": "describe sucess tester",
-    "body": [
-      "describe('_ >> [Sucess]', () => {",
-      "  const sut = makeSut",
-      "  ",
-      "  test(`deve _.`, async () => {",
-      "  const current = null",
-      "  const expected = null",
-      "  // console.log('OBJ CRIADO >> ', current)",
-      "  // console.log('A RESPOSTA DA EXPECTATIVA SERÁ >> ', expected)",
-      "  assert(expected === true)",
-      "  })",
-      "  ",
-      "  })"
-    ],
-    "description": "describe_sucess_tester"
-  },
-  "suite_test_it": {
+  "suite_test_it_NODE": {
     "scope": "javascript,typescript",
     "prefix": "suite test it",
     "body": [
@@ -347,29 +251,7 @@
       "assert(expected === true)",
       "})"
     ],
-    "description": "suite_test_it"
-  },
-  //
-  "export-modulo-classe__JS": {
-    "scope": "javascript,typescript",
-    "prefix": "export-modulo-classe__JS",
-    "body": [
-      "class ${1:modulo} {",
-      "    constructor() {}",
-      "}",
-      "",
-      "module.exports = ${1:modulo}"
-    ],
-    "description": "export-modulo-classe__JS"
-  },
-  "comment": {
-    "prefix": "comment",
-    "body": [
-      "/*",
-      "* $0",
-      "*/"
-    ],
-    "description": "comment"
+    "description": "suite_test_it_NODE"
   },
   "class": {
     "prefix": "export class - typescript",
@@ -389,29 +271,14 @@
     ],
     "description": "interface"
   },
-  "requisito": {
-    "prefix": "requisito",
-    "body": [
-      "## API : $1",
-      "",
-      "## REQUISITOS",
-      "- [] Deve ser possivel ",
-      "",
-      "",
-      "## REGRAS DE NEGOCIO",
-      "- [] Não Deve ser possivel "
-    ],
-    "description": "requisito"
-  },
-  "noExport": {
-    "prefix": "noExport",
+  "noExport_DEFAULT_1": {
+    "prefix": "noExport_DEFAULT_1",
     "scope": "javascript,typescript",
     "body": [
       "",
-      "/* ---------------------- // ---------------------- */",
-      "",
       "export default 1",
+      ""
     ],
-    "description": "noExport"
+    "description": "noExport_DEFAULT_1"
   }
 }
