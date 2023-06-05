@@ -31,6 +31,12 @@
   "workbench.list.smoothScrolling": true,
   "workbench.colorTheme": "OM Theme (Night Owl Italic)",
 
+  // VERIFICADOR_ORTOGRAFIA -> + PALAVRAS ADD AO DICIONARIO GLOBAL USUARIO_USER
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.userWords": [
+    "foo", "Foo"
+  ],
+
   // Git
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": true,
@@ -131,4 +137,5 @@
     "editor.wordBasedSuggestions": false
   },
   "dart.openDevTools": "flutter"
+
 }

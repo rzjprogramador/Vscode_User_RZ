@@ -1,4 +1,11 @@
 {
+  "frase_replica_lib": {
+    "prefix": "frase_replica_lib",
+    "body": [
+      "por convencao o nome do modulo começa com _anderline, faça uma replica e retire o _ da replica e use a replica.",
+    ],
+    "description": "frase_replica_lib"
+  },
   "comment_Titulo1": {
     "prefix": "comment_Titulo1",
     "body": [
@@ -26,12 +33,12 @@
     ],
     "description": "jsdoc_frases_uso_index_exportacoes"
   },
-  "import_LogConsole_RZJ": {
-    "prefix": "import_LogConsole_RZJ",
+  "import_consoleLOG_RZJ": {
+    "prefix": "import_consoleLOG_RZJ",
     "body": [
-      "import { Log as mkeLog } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/devToolsRZ/LogConsole/index.ts\";"
+      "import { _Log as Log } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/devToolsRZ/LogConsole/index.ts\";"
     ],
-    "description": "import_LogConsole_RZJ"
+    "description": "import_consoleLOG_RZJ"
   },
   "consoleLogRZJ": {
     "prefix": "consoleLogRZJ",
@@ -79,6 +86,18 @@
       "}"
     ],
     "description": "model_class_custom_error_ts"
+  },
+  "jsdoc_LIB_INDEX": {
+    "prefix": "jsdoc_LIB_INDEX",
+    "body": [
+      "/**",
+      " * @description disponibiliza o objeto ...TODO",
+      " * @returns metodos disponiveis: [] +",
+      " * @default nomeado com _anderline, replique renomeando sem o _ -> e use a replica.",
+      " * @exemple {_foo as foo} :: foo()",
+      " */"
+    ],
+    "description": "jsdoc_LIB_INDEX"
   },
   "jsdoc doc ": {
     "prefix": "jsdoc doc",
