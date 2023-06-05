@@ -29,6 +29,17 @@
     "comando": "workbench.action.closeActiveEditor"
   },
   {
+    "acao": "fechar_outros_arquivos",
+    "key": "f4",
+    "command": "workbench.action.closeOtherEditors"
+  },
+  {
+    "acao": "toogle_abrir_e_fechar_terminal",
+    "atalho": "f12",
+    "significado": "TODO",
+    "comando": "workbench.action.terminal.toggleTerminal"
+  },
+  {
     "acao": "vsplit editor",
     "atalho": "alt+\\",
     "significado": "TODO",
@@ -45,12 +56,6 @@
     "atalho": "F1+;",
     "significado": "",
     "comando": "workbench.action.terminal.kill"
-  },
-  {
-    "acao": "toogle_abrir_e_fechar_terminal",
-    "atalho": "f4 E ctrl+t",
-    "significado": "TODO",
-    "comando": "workbench.action.terminal.toggleTerminal"
   },
   {
     "acao": "ocorrencia_atual",
