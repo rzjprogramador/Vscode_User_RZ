@@ -136,6 +136,9 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "dart.openDevTools": "flutter"
+  "dart.openDevTools": "flutter",
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
 
 }
