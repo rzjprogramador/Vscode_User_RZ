@@ -1,11 +1,71 @@
 {
-  "frase_replica_lib": {
-    "prefix": "frase_replica_lib",
+  "todo_links_provisorios": {
+    "prefix": "todo_links_provisorios",
     "body": [
-      "por convencao o nome do modulo começa com _anderline, faça uma replica e retire o _ da replica e use a replica.",
+      "// #TODO: imports provisórios do PC -> substituir por linkReal assim que prontos.",
     ],
-    "description": "frase_replica_lib"
+    "description": "todo_links_provisorios"
   },
+  "jsdoc_rzj_author": {
+    "prefix": "jsdoc_rzj_author",
+    "body": [
+      " * @author @RzjProgramador  { @RzjProgramador in -> [ linkedin, twitter, facebook, instagram] }",
+      ""
+    ],
+    "description": "jsdoc_rzj_author"
+  },
+  "jsdoc_MAIN_libs": {
+    "prefix": "jsdoc_MAIN_libs",
+    "body": [
+      "/**",
+      " * @description MAIN *** ENTRADA_PRINCIPAL_DA_LIB",
+      " * @author @RzjProgramador  { @RzjProgramador in -> [ linkedin, twitter, facebook, instagram] }",
+      " * @returns -> distribui todos links vindos do links.ts",
+      " * @default  main busca -> modules/components -> e aqui poderás -> disponibilizar os módulos ao Client da melhor forma seja em : [ link || method () || object ]",
+      " */"
+    ],
+    "description": "jsdoc_MAIN_libs"
+  },
+
+  "jsdoc_COMPONENTS_libs": {
+    "prefix": "jsdoc_COMPONENTS_libs",
+    "body": [
+      "/**",
+      " * @description links das funcionalidades implantadas em features/feature",
+      " * @returns -> disponíveis: [  +  ]",
+      " * @example -> import { _foo as foo } -> use foo em todo código e tenha somente esta fonteÚnica para refatorar.",
+      " * @default busca -> features/feature",
+      "*/"
+    ],
+    "description": "jsdoc_COMPONENTS_libs"
+  },
+
+  "jsdoc_EntityDeps_FEATURE": {
+    "prefix": "jsdoc_EntityDeps_FEATURE",
+    "body": [
+      "/**",
+      " * @description entityFeatureDeps - #Unique  #PoloUnico #Replicas -> alimenta o _RootDependencias",
+      " * @returns -> <importando Features > + <gerando alias Replica>  + <exportando Replica gerada para uso na app>.",
+      "",
+      " * @default traz todas importacoes de artefatos da [ feature + auxiliares ] * < em_appEntity gera a replica> || <em_LibsRZ rexporta tudo de feature e aux> -> e alimenta o _root.",
+      "*/"
+    ],
+    "description": "jsdoc_EntityDeps_FEATURE"
+  },
+
+  "jsdoc_Root_DEPS_toplevel": {
+    "prefix": "jsdoc_Root_DEPS_toplevel",
+    "body": [
+      "/**",
+      " * @description _rootdeps -> alimenta o import_map.json",
+      " * @returns -> alimenta o import_map.json -> no qual gera os < @ variável >",
+      " * @default traz todas o entidadeDeps de cada feature | entidade",
+      "*/"
+    ],
+    "description": "jsdoc_Root_DEPS_toplevel"
+  },
+
+
   "comment_Titulo1": {
     "prefix": "comment_Titulo1",
     "body": [
@@ -23,20 +83,10 @@
     ],
     "description": "comment_Titulo2"
   },
-  "jsdoc_frases_uso_index_exportacoes": {
-    "prefix": "jsdoc_frases_uso_index_exportacoes",
-    "body": [
-      "/**",
-      " * @description este index traz o metodo { ${1:foo} } e seu contrato",
-      " * @exemple para utilizar este indexador:  1. import para uma variavel auxiliar. 2.  extrair o metodo { ${1:foo} } e o type contrato { ${2:foo} }",
-      " */"
-    ],
-    "description": "jsdoc_frases_uso_index_exportacoes"
-  },
   "import_consoleLOG_RZJ": {
     "prefix": "import_consoleLOG_RZJ",
     "body": [
-      "import { _Log as Log } from \"/home/rzj/..gitAll/rzModulesTS_FIXOPC/devToolsRZ/LogConsole/index.ts\";"
+      "import { _Log as Log } from \"/home/rzj/..gitAll/RZ_Libs/RZ_Libs_devTools/main.ts\";"
     ],
     "description": "import_consoleLOG_RZJ"
   },
