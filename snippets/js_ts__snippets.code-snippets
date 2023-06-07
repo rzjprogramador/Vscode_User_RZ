@@ -1,4 +1,16 @@
 {
+  "informe_Projeto_Markdown_MD": {
+    "prefix": "informe_Projeto_Markdown_MD",
+    "body": [
+      "# Informe Projeto",
+      "",
+      "nome: \"${1:'ArtefatoPrincipalTS: ' ArtefatoPrincipalTS}\",",
+      "rodar_arquivo: \"`deno task run <path/ARQUIVO.extensao>`\",",
+      "rodar_todos_tests: \"`deno task test`\","
+    ],
+    "description": "informe_Projeto_Markdown_MD"
+  },
+
   "todo_links_provisorios": {
     "prefix": "todo_links_provisorios",
     "body": [
@@ -40,17 +52,55 @@
     "description": "jsdoc_COMPONENTS_libs"
   },
 
-  "jsdoc_EntityDeps_FEATURE": {
-    "prefix": "jsdoc_EntityDeps_FEATURE",
+  "jsdoc_1_UNIQUE_INTERNAL_Deps": {
+    "prefix": "jsdoc_1_UNIQUE_INTERNAL_Deps",
     "body": [
       "/**",
-      " * @description entityFeatureDeps - #Unique  #PoloUnico #Replicas -> alimenta o _RootDependencias",
-      " * @returns -> <importando Features > + <gerando alias Replica>  + <exportando Replica gerada para uso na app>.",
-      "",
-      " * @default traz todas importacoes de artefatos da [ feature + auxiliares ] * < em_appEntity gera a replica> || <em_LibsRZ rexporta tudo de feature e aux> -> e alimenta o _root.",
+      " * @sequencia 01/entityDeps INTERNAS :: traz os imports reais { Uniques *** Deps_Modular_ImportMapJSON }",
+      " * @description entityFeatureDeps - #Unique  #Replicas -> leva os links para o _RootDependencias",
+      " * @unique fonteUnica para mudar os links reais de dependências: [ internas e externas ]",
+      " * @tasksInternal -> <registre aqui os artefatos para disponibilizar acessos. >",
       "*/"
     ],
-    "description": "jsdoc_EntityDeps_FEATURE"
+    "description": "jsdoc_1_UNIQUE_INTERNAL_Deps"
+  },
+
+  "jsdoc_1_UNIQUE_EXTERNAL_Deps": {
+    "prefix": "jsdoc_1_UNIQUE_EXTERNAL_Deps",
+    "body": [
+      "/**",
+      " * @sequencia 01/replicas EXTERNAS :: traz os imports reais { Uniques *** Deps_Modular_ImportMapJSON }",
+      " * @description entityFeatureDeps - #Unique  #Replicas -> leva os links para o _RootDependencias",
+      " * @unique fonteUnica para mudar os links reais de dependências: [ internas e externas ]",
+      " * @tasksExternal -> <importa aqui os artefatosExternos -> replique com alias <as> e use o alias na app.>",
+      "*/"
+    ],
+    "description": "jsdoc_1_UNIQUE_EXTERNAL_Deps"
+  },
+
+  "jsdoc_2_ROOT_DEPS": {
+    "prefix": "jsdoc_2_ROOT_DEPS",
+    "body": [
+      "/**",
+      " * @sequencia 02_rootDeps :: mescla os imports reais e Replica { Deps_Modular_ImportMapJSON }",
+      " * @tasks MESCLA OS IMPORTS REAIS : [ *traz todos o artefatos de entidadeDeps registrados, *traz todas replicasExternas ]",
+      " * @action -> alimenta o MASTER -> *import_map.json para gerar o <@linkVariavel>",
+      " */"
+    ],
+    "description": "jsdoc_2_ROOT_DEPS"
+  },
+
+  "jsdoc_3_ROOT_DEPS_FINAL_JSON": {
+    "prefix": "jsdoc_3_ROOT_DEPS_FINAL_JSON",
+    "body": [
+      "/**",
+      " * @sequencia 03/FINAL -> import_map :: conecta-se aos mesclados -> sera habilitado por Ultimo pelo settings do editor e Final.",
+      " * @tasks [ gerar o <@linkVariavel> ]",
+      " * @implements [ { @ variavel SEM barraFinal leva ate arquivo }, { @variável COM barraFinal leva ate diretório }]",
+      " * @sets [sempre importar o _rootDeps.deps que traz todas deps registradas : o deno confia o sufixo <.deps.ts> para  intellisense de importações",
+      " */"
+    ],
+    "description": "jsdoc_3_ROOT_DEPS_FINAL_JSON"
   },
 
   "jsdoc_Root_DEPS_toplevel": {
