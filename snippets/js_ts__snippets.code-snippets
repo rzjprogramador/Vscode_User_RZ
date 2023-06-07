@@ -1,4 +1,18 @@
 {
+  "jsdoc_FEATURE_feature": {
+    "prefix": "jsdoc_FEATURE_feature",
+    "body": [
+      "/**",
+      " * @name name ${foo: MinhaFeatureTS}",
+      " * @returns ->",
+      " * @infoUsoInterno o artefatoPrincipal na appLib será usado no formato camelCase.",
+      " * @infoUsoExterno ao fazer download primeiro replique ex: { camelCaseTS as SnakeCaseTS} depois use no formato SnakeCase",
+      " * @exemple FooFeatureTS.method()",
+      " */"
+    ],
+    "description": "jsdoc_FEATURE_feature"
+  },
+
   "informe_Projeto_Markdown_MD": {
     "prefix": "informe_Projeto_Markdown_MD",
     "body": [
@@ -133,12 +147,12 @@
     ],
     "description": "comment_Titulo2"
   },
-  "import_consoleLOG_RZJ": {
-    "prefix": "import_consoleLOG_RZJ",
+  "import_consoleLOG_RZJ_Log": {
+    "prefix": "import_consoleLOG_RZJ_Log",
     "body": [
-      "import { _Log as Log } from \"/home/rzj/..gitAll/RZ_Libs/RZ_Libs_devTools/main.ts\";"
+      "export { log as Log } from \"/home/rzj/..gitAll/RZ_Libs/RZ_Libs_devTools/main.ts\";"
     ],
-    "description": "import_consoleLOG_RZJ"
+    "description": "import_consoleLOG_RZJ_Log"
   },
   "consoleLogRZJ": {
     "prefix": "consoleLogRZJ",

@@ -1,3 +1,5 @@
+// feature
+
 interface Props {
 	texto: string
 	numeroInteiro: number
@@ -19,5 +21,7 @@ console.log(foo())
   bar
   foo
 */
+
+
 
 export default 1
