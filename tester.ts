@@ -1,4 +1,3 @@
-informe
 
 interface Props {
 	texto: string
