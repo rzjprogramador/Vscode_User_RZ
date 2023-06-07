@@ -18,9 +18,18 @@
     "body": [
       "# Informe Projeto",
       "",
-      "nome: \"${1:'ArtefatoPrincipalTS: ' ArtefatoPrincipalTS}\",",
+      "nome: \"${1:'MeuProjetolS: ' MeuProjetoTS}\",",
       "rodar_arquivo: \"`deno task run <path/ARQUIVO.extensao>`\",",
-      "rodar_todos_tests: \"`deno task test`\","
+      "rodar_todos_tests: \"`deno task test`\",",
+      "",
+      "tarefas:",
+      "  1. [] - precisa_ser_assincrono: true,",
+      "  2. [] -",
+      "",
+      "",
+      "---",
+      "",
+      ""
     ],
     "description": "informe_Projeto_Markdown_MD"
   },

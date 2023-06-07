@@ -1,4 +1,4 @@
-// feature
+informe
 
 interface Props {
 	texto: string
@@ -20,6 +20,9 @@ console.log(foo())
   foo
   bar
   foo
+
+  ${1:'MeuProjetolS: ' MeuProjetoTS}
+
 */
 
 
