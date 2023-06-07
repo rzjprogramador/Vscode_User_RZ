@@ -37,6 +37,11 @@
     "foo", "Foo"
   ],
 
+  // CONFIG ARQUIVOS JSON
+  "files.associations": {
+    "*.json": "jsonc" // habilita comentarios em arquivos json.
+},
+
   // Git
   "git.enableSmartCommit": true,
   "diffEditor.ignoreTrimWhitespace": true,
