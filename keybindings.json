@@ -3,19 +3,21 @@
 
 [
 	{
-		"key": "f1",
+		"key": "f11",
 		"command": "workbench.action.closeEditorsInGroup",
 		"args": "fecha_todas_janelas_de_editores"
 	},
+
+	{
+		"key": "f1",
+		"command": "workbench.action.closeOtherEditors",
+		"args": "fechar_outras_janelas_de_editor"
+	},
+
 	{
 		"key": "f3",
 		"command": "workbench.action.closeActiveEditor",
 		"args": "fecha_autal_janela_de_editor"
-	},
-	{
-		"key": "f4",
-		"command": "workbench.action.closeOtherEditors",
-		"args": "fechar_outras_janelas_de_editor"
 	},
 	{
 		"key": "f12",
@@ -44,7 +46,7 @@
 		"key": "ctrl+d",
 		"command": "editor.action.deleteLines",
 		"when": "textInputFocus && !editorReadonly",
-		"args": "foo"
+		"args": "deletar_linha"
 	},
 	{
 		"key": "ctrl+f5",
@@ -60,13 +62,13 @@
 		"key": "alt+,",
 		"command": "editor.action.addSelectionToNextFindMatch",
 		"when": "editorFocus",
-		"args": "foo"
+		"args": "ocorrencia_atual_UMA"
 	},
 	{
 		"key": "alt+.",
 		"command": "editor.action.selectHighlights",
 		"when": "editorFocus",
-		"args": "foo"
+		"args": "ocorrencias_TODAS"
 	},
 	{
 		"key": "ctrl+w",
@@ -99,23 +101,21 @@
 	{
 		"key": "ctrl+e",
 		"command": "workbench.action.toggleSidebarVisibility",
-		"args": "foo"
+		"args": "toggle_explorador_de_arquivos"
 	},
 	{
 		"key": "ctrl+b",
 		"command": "-workbench.action.toggleSidebarVisibility",
 		"args": "foo"
 	},
+	// xxx
+
 	{
-		"key": "alt+\\",
-		"command": "workbench.action.splitEditor",
-		"args": "foo"
+		"key": "alt+v",
+		"command": "workbench.action.toggleSplitEditorInGroup",
+		"args": "toggle vsplit - na vertical."
 	},
-	{
-		"key": "ctrl+\\",
-		"command": "-workbench.action.splitEditor",
-		"args": "foo"
-	},
+
 	{
 		"key": "shift+f1 ctrl+shift",
 		"command": "actions.find",
@@ -225,5 +225,6 @@
 		"command": "-editor.action.blockComment",
 		"when": "editorTextFocus && !editorReadonly",
 		"args": "foo"
-	}
+	},
+
 ]

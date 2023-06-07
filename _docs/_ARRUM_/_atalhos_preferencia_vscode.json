@@ -5,47 +5,7 @@
     "leader_Segundaria": "ctrl+shift",
     "leader_Movimentacao": "alt"
   },
-  {
-    "acao": "deletar_linha",
-    "atalho": "ctrl+d",
-    "significado": "d de delete",
-    "comando": "editor.action.deleteLines"
-  },
-  {
-    "acao": "abreFecha_explore_arquivos",
-    "atalho": "ctrl+e",
-    "significado": "'E' de explorer",
-    "comando": "workbench.action.toggleSidebarVisibility"
-  },
-  {
-    "acao": "fechar_grupo_arquivos_abertos",
-    "atalho": "f1",
-    "significado": "quit :: fechar fica mais proximo fechar tudo com q",
-    "comando": "workbench.action.closeEditorsInGroup"
-  },
-  {
-    "acao": "fechar_arquivo_em_foco",
-    "atalho": "f3",
-    "significado": "",
-    "comando": "workbench.action.closeActiveEditor"
-  },
-  {
-    "acao": "fechar_outros_arquivos",
-    "key": "f4",
-    "command": "workbench.action.closeOtherEditors"
-  },
-  {
-    "acao": "toogle_abrir_e_fechar_terminal",
-    "atalho": "f12",
-    "significado": "TODO",
-    "comando": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "acao": "vsplit editor",
-    "atalho": "alt+\\",
-    "significado": "TODO",
-    "comando": "workbench.action.splitEditor"
-  },
+
   {
     "acao": "selecionar_tudo",
     "atalho": "ctrl+a",
@@ -58,18 +18,7 @@
     "significado": "",
     "comando": "workbench.action.terminal.kill"
   },
-  {
-    "acao": "ocorrencia_atual",
-    "atalho": "alt+,",
-    "significado": "alt menor que",
-    "comando": "editor.action.addSelectionToNextFindMatch"
-  },
-  {
-    "acao": "ocorrencias_todas",
-    "atalho": "alt+.",
-    "significado": "alt maior que",
-    "comando": "editor.action.selectHighlights"
-  },
+
   {
     "acao": "pesquisa_matchL5",
     "atalho": "F1+f",
