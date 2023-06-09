@@ -1,0 +1,46 @@
+
+const keymaps_editor_nvim = [
+  {
+    editor: "nvim",
+    titulo: "",
+    plugin: "todo",
+    key: "",
+    modo: "todos",
+    command: "",
+    obs: "todo",
+  },
+  {
+    editor: "nvim",
+    titulo: "identar linha",
+    plugin: "todo",
+    key: "Tab",
+    modo: "visual",
+    command: "",
+    obs: "todo",
+  },
+  {
+    editor: "nvim",
+    titulo: "desidentar linha",
+    plugin: "todo",
+    key: "S-Tab",
+    modo: "visual",
+    command: "",
+    obs: "todo",
+  },
+  {
+    editor: "nvim",
+    titulo: "fecha buffer",
+    key: "f12",
+    modo: "todos",
+    command: "",
+    obs: "desc = Close buffer",
+  },
+  {
+    editor: "nvim",
+    titulo: "Terminal Vertical Toggle",
+    key: "<leader><F10>",
+    modo: "todos",
+    command: "p",
+    obs: "desc = ToggleTerm vertical ",
+  },
+]
