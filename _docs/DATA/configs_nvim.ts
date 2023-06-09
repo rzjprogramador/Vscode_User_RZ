@@ -5,10 +5,10 @@ const keymaps_editor_nvim = [
     contexto: '',
 		titulo: '',
 		codigo: `
-    ```
+    ~~~
     // exemplo:
 
-    ```
+    ~~~
     `,
 		conceito: '#nulo',
 		obs: '#nulo',
