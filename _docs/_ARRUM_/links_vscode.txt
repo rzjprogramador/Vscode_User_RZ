@@ -1,2 +1,0 @@
-
-chaves_teclas_vscode: "https://code.visualstudio.com/docs/getstarted/keybindings#_default-keyboard-shortcuts",
