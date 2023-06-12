@@ -25,11 +25,11 @@
   "conceito_novo": {
     "prefix": "conceito_novo",
     "body": [
-      "titulo: \"\",",
+      "titulo: \"$1\",",
       "categoria: \"\",",
       "contexto: \"\",",
       "conceito: \"\",",
-      "observacoes: \"\","
+      "observacoes: \"#null\","
     ],
     "description": "conceito_novo"
   },
