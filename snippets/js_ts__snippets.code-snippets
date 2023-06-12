@@ -13,6 +13,18 @@
     "description": "jsdoc_FEATURE_feature"
   },
 
+  "novo_contexto": {
+    "prefix": "novo_contexto",
+    "body": [
+      "titulo: \"\",",
+      "categoria: \"\",",
+      "contexto: \"\",",
+      "conceito: \"\",",
+      "observacoes: \"\","
+    ],
+    "description": "novo_contexto"
+  },
+
   "informe_Projeto_Markdown_MD": {
     "prefix": "informe_Projeto_Markdown_MD",
     "body": [
