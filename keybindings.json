@@ -3,13 +3,13 @@
     "key": "tab",
     "command": "tab",
     "when": "editorTextFocus && !editorTabMovesFocus",
-    "args": "funcionar Tab em readonly - que é o normal do vim "
+    "args": "Tab identa"
   },
   {
       "key": "shift+tab",
       "command": "outdent",
       "when": "editorTextFocus && !editorTabMovesFocus",
-     "args": "funcionar o shif Tab no vim com vscode."
+      "args": "re-Tab desindenta."
   },
   {
     "key": "f4",
@@ -31,6 +31,105 @@
   "key": "ctrl+v",
   "command": "editor.action.clipboardPasteAction",
   "args": "colar - reconfigurando ctrl+v de novo vscode_vim"
-}
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.action.clipboardCutAction",
+    "args": "recortar - default: ctrl+x"
+  },
+	{
+		"key": "ctrl+,",
+		"command": "editor.action.addSelectionToNextFindMatch",
+		"when": "editorFocus",
+		"args": "ocorrencia_atual_UMA - default era ctrl+d"
+	},
+	{
+		"key": "ctrl+.",
+		"command": "editor.action.selectHighlights",
+		"when": "editorFocus",
+		"args": "ocorrencias_TODAS - default era ctrl+."
+	},
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.insertCursorBelow",
+    "when": "editorTextFocus",
+    "args": "inserir cursor linhas abaixo - default -> ctrl+shift+down"
+  },
+	{
+		"key": "escape+d+d",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly",
+		"args": "deleta linha -> default ctrl+shift+k"
+	},
+	{
+		"key": "ctrl+\\",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus && !editorReadonly",
+		"args": "comentario em linha -> default ctrl+k+ctrl+c"
+	},
+	{
+		"key": "ctrl+shift+\\",
+		"command": "editor.action.blockComment",
+		"when": "editorTextFocus && !editorReadonly",
+		"args": "comentario em bloco -> default ctrl+shift+a"
+  },
+  {
+		"key": "ctrl+w",
+		"command": "workbench.action.closeActiveEditor",
+		"args": "fecha atual janela ativa -> default ctrl+w"
+	},
+  {
+    "key": "ctrl+tab",
+    "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
+    "when": "inEditorsPicker && inQuickOpen",
+    "args": "navega entre janelas abertas - default -> ctrl+tab"
+  },
+	{
+		"key": "f1",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active",
+		"args": "toggle TERMINAL - default: ctrl+shift+`<craze>"
+	},
+  {
+    "key": "shift+f1",
+    "command": "workbench.action.terminal.kill",
+    "args": "fecha kill terminal em foco - default: #NaoTinha"
+  },
+  {
+    "key": "ctrl+enter",
+    "command": "breadcrumbs.revealFocusedFromTreeAside",
+    "when": "breadcrumbsActive && breadcrumbsVisible && listFocus && !inputFocus",
+    "args": "abrir arquivo selecionado em vsplit -> default: ctrl+enter"
+  },
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"args": "toggle_explorador_de_arquivos - default: ctrl+b"
+	},
+  {
+    "key": "f2",
+    "command": "editor.action.rename",
+    "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly",
+    "args": "renomea definicao variavel - rename symbol -> default: f2"
+  },
+	{
+		"key": "ctrl+f1",
+		"command": "workbench.action.showCommands",
+		"args": "mostra comandos - default: f1"
+	},
+  {
+		"key": "ctrl+shift+down",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly",
+		"args": "copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+down"
+	},
+
+	{
+		"key": "ctrl+shift+up",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly",
+		"args": "copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+up"
+  },
+
 
 ]
