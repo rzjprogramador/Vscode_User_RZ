@@ -37,6 +37,11 @@
     "command": "editor.action.clipboardCutAction",
     "args": "recortar - default: ctrl+x"
   },
+  {
+    "key": "ctrl+a",
+    "command": "editor.action.selectAll",
+    "args": "seleciona tudo - default: ctrl+a"
+  },
 	{
 		"key": "ctrl+,",
 		"command": "editor.action.addSelectionToNextFindMatch",
