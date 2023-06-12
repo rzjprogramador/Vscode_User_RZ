@@ -14,6 +14,8 @@ console.log('Ola 2')
 console.log(objeto)
 console.log(foo())
 
+
+
 /*
   bar
   foo
