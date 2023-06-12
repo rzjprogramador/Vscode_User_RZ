@@ -13,6 +13,15 @@
     "description": "jsdoc_FEATURE_feature"
   },
 
+  "nao_usada_var": {
+    "prefix": "nao_usada_var",
+    "body": [
+      "// deno-lint-ignore-file no-unused-vars",
+      "",
+    ],
+    "description": "nao_usada_var"
+  },
+
   "novo_contexto": {
     "prefix": "novo_contexto",
     "body": [

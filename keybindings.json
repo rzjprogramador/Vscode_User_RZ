@@ -84,6 +84,11 @@
 		"args": "fecha atual janela ativa -> default ctrl+w"
 	},
   {
+    "key": "ctrl+q",
+    "command": "workbench.action.closeAllEditors",
+    "args": "fecha todas janelas ativa -> default: ctrl+k ctrl+w"
+  },
+  {
     "key": "ctrl+tab",
     "command": "workbench.action.quickOpenNavigateNextInEditorPicker",
     "when": "inEditorsPicker && inQuickOpen",
