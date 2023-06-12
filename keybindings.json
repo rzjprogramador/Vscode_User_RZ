@@ -58,7 +58,7 @@
     "key": "ctrl+.",
     "command": "editor.action.quickFix",
     "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly",
-    "args": "intelisense conserto rapido - quick fix - default ctrl+."
+    "args": "sugestao de conserto rapido - quick fix - default ???"
   },
   {
     "key": "ctrl+shift+down",
