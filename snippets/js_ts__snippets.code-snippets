@@ -22,8 +22,8 @@
     "description": "nao_usada_var"
   },
 
-  "novo_contexto": {
-    "prefix": "novo_contexto",
+  "conceito_novo": {
+    "prefix": "conceito_novo",
     "body": [
       "titulo: \"\",",
       "categoria: \"\",",
@@ -31,7 +31,7 @@
       "conceito: \"\",",
       "observacoes: \"\","
     ],
-    "description": "novo_contexto"
+    "description": "conceito_novo"
   },
 
   "informe_Projeto_Markdown_MD": {
