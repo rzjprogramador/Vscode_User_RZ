@@ -43,17 +43,23 @@
     "args": "seleciona tudo - default: ctrl+a"
   },
 	{
-		"key": "ctrl+,",
+		"key": "alt+,",
 		"command": "editor.action.addSelectionToNextFindMatch",
 		"when": "editorFocus",
 		"args": "ocorrencia_atual_UMA - default era ctrl+d"
 	},
 	{
-		"key": "ctrl+.",
+		"key": "alt+.",
 		"command": "editor.action.selectHighlights",
 		"when": "editorFocus",
 		"args": "ocorrencias_TODAS - default era ctrl+."
 	},
+  {
+    "key": "ctrl+.",
+    "command": "editor.action.quickFix",
+    "when": "editorHasCodeActionsProvider && textInputFocus && !editorReadonly",
+    "args": "intelisense conserto rapido - quick fix - default ctrl+."
+  },
   {
     "key": "ctrl+shift+down",
     "command": "editor.action.insertCursorBelow",
