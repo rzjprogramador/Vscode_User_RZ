@@ -31,6 +31,15 @@
   "workbench.list.smoothScrolling": true,
   "workbench.colorTheme": "OM Theme (Night Owl Italic)",
 
+  // VIM_VSCODE
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [ "j", "j"],
+      "after": ["<Esc>"]
+      // atalho < j 2vz > para mudar modos - obs: mesmo assim funciona o Esc
+    }
+  ],
+
   // VERIFICADOR_ORTOGRAFIA -> + PALAVRAS ADD AO DICIONARIO GLOBAL USUARIO_USER
   "cSpell.language": "en,pt,pt_BR",
   "cSpell.userWords": [

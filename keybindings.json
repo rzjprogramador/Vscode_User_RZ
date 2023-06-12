@@ -1,0 +1,19 @@
+[
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus",
+    "args": "funcionar Tab em readonly - que é o normal do vim "
+  },
+  {
+      "key": "shift+tab",
+      "command": "outdent",
+      "when": "editorTextFocus && !editorTabMovesFocus",
+     "args": "funcionar o shif Tab no vim com vscode."
+  },
+  {
+    "key": "f4",
+    "command": "code-runner.run",
+   "args": "run code arquivo no terminal - - default era ctrl+alt+n"
+  },
+]
