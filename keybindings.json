@@ -22,5 +22,15 @@
     "when": "editorFocus || editorIsOpen",
     "args": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
   },
-  
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "args": "copiar - reconfigurando ctrl+c de novo vscode_vim"
+  },
+  {
+  "key": "ctrl+v",
+  "command": "editor.action.clipboardPasteAction",
+  "args": "colar - reconfigurando ctrl+v de novo vscode_vim"
+}
+
 ]
