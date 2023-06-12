@@ -86,7 +86,7 @@
   {
     "key": "ctrl+q",
     "command": "workbench.action.closeAllEditors",
-    "args": "fecha todas janelas ativa -> default: ctrl+k ctrl+w"
+    "args": "fecha todas janelas ativa forcado force -> default: ctrl+k ctrl+w"
   },
   {
     "key": "ctrl+tab",
