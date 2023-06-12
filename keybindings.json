@@ -16,4 +16,11 @@
     "command": "code-runner.run",
    "args": "run code arquivo no terminal - - default era ctrl+alt+n"
   },
+  {
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen",
+    "args": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
+  },
+  
 ]
