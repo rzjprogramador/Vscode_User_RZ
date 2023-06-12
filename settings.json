@@ -97,7 +97,7 @@
 
   // TYPESCRIPT PARA TODOS TS : [ TS_ISOLADOS, DENO, ]
   "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno", // CONTROLA FORMATACAO DOS TS
+    "editor.defaultFormatter": "vscode.typescript-language-features", // CONTROLA FORMATACAO DOS TS
     "editor.formatOnSave": true
   },
   "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib",

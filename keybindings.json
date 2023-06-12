@@ -126,15 +126,39 @@
 		"key": "ctrl+shift+down",
 		"command": "editor.action.copyLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly",
-		"args": "copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+down"
+		"args": "duplica > copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+down"
 	},
 
 	{
 		"key": "ctrl+shift+up",
 		"command": "editor.action.copyLinesUpAction",
 		"when": "editorTextFocus && !editorReadonly",
-		"args": "copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+up"
+		"args": "duplica > copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+up"
   },
+  {
+    "key": "ctrl+l",
+    "command": "expandLineSelection",
+    "when": "textInputFocus",
+    "args": "seleciona linha e expand para baixo - default: ctrl+l"
+  },
+  {
+    "key": "ctrl+k ctrl+f",
+    "command": "editor.action.formatSelection",
+    "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly",
+    "args": "formatar documento -#TODO configurar_formatador - default: ctrl+k ctrl+f"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "identa linha a frente - default: ctrl+]"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly",
+    "args": "desidenta linha a atraz - default: ctrl+["
+  }
 
 
 ]
