@@ -174,7 +174,20 @@
     "key": "shift+f1",
     "command": "workbench.action.showCommands",
     "args": "mostra todos comandos - show all commands"
+  },
+  {
+    "key": "alt+left",
+    "command": "workbench.action.terminal.resizePaneLeft",
+    "when": "editorFocus || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "args": "redimensiona terminal a direita -> default: ctrl+shift+left"
+  },
+  {
+    "key": "alt+right",
+    "command": "workbench.action.terminal.resizePaneRight",
+    "when": "editorFocus || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "args": "redimensiona terminal a esquerda -> default: ctrl+shift+right"
   }
+
 
 
 
