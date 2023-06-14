@@ -67,7 +67,7 @@
     "args": "inserir cursor linhas abaixo - default -> ctrl+shift+down"
   },
 	{
-		"key": "escape+d+d",
+		"key": "ctrl+d",
 		"command": "editor.action.deleteLines",
 		"when": "textInputFocus && !editorReadonly",
 		"args": "deleta linha -> default ctrl+shift+k"
@@ -169,7 +169,13 @@
     "command": "editor.action.outdentLines",
     "when": "editorTextFocus && !editorReadonly",
     "args": "desidenta linha a atraz - default: ctrl+["
+  },
+  {
+    "key": "shift+f1",
+    "command": "workbench.action.showCommands",
+    "args": "mostra todos comandos - show all commands"
   }
+
 
 
 ]
