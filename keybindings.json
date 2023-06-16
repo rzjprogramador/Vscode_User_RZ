@@ -28,9 +28,45 @@
     "args": "copiar - reconfigurando ctrl+c de novo vscode_vim"
   },
   {
+    "key": "ctrl+c",
+    "command": "workbench.action.terminal.copySelection",
+    "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected",
+    "args": "copiar do terminal em focus"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "filesExplorer.copy",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !inputFocus",
+    "args": "copiar em explorer arquivos no sidebar"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "filesExplorer.cut",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus",
+    "args": "recortar em explorer arquivos no sidebar"
+  },
+  {
   "key": "ctrl+v",
   "command": "editor.action.clipboardPasteAction",
   "args": "colar - reconfigurando ctrl+v de novo vscode_vim"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "filesExplorer.paste",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus",
+    "args": "colar em explorer arquivos no sidebar"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "args": "colar em terminal em focus"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
+    "args": "colar em terminal em focus"
   },
   {
     "key": "ctrl+x",
