@@ -198,6 +198,16 @@
     ],
     "description": "consoleLogSuper"
   },
+  "try_catch_RZ": {
+    "prefix": "try_catch_RZ",
+    "body": [
+      "try {$1}",
+      "catch (err: any) {",
+      "  return err.message",
+      "}"
+    ],
+    "description": "try_catch_RZ"
+  },
   "deps": {
     "prefix": "deps",
     "body": [
