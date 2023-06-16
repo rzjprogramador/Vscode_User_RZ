@@ -191,12 +191,12 @@
     ],
     "description": "consoleLogRZJ"
   },
-  "consoleLog": {
-    "prefix": "consoleLog",
+  "consoleLogSuper": {
+    "prefix": "consoleLogSuper",
     "body": [
       "Log(\"${1:foo}: \", ${1:foo})"
     ],
-    "description": "consoleLog Original"
+    "description": "consoleLogSuper"
   },
   "deps": {
     "prefix": "deps",
