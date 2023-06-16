@@ -11,6 +11,7 @@
   "git.autofetch": true,
 
   // EDITOR
+  "window.newWindowDimensions": "maximized", // abre instancia maximizada ao iniciar editor
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
   "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
