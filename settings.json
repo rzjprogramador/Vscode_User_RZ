@@ -1,6 +1,26 @@
 {
   "workbench.colorCustomizations": {
-    "tab.activeBackground": "#250069" /* tabs superior ativa */
+    "tab.activeBackground": "#250069",
+    "activityBar.activeBackground": "#3399ff",
+    "activityBar.background": "#3399ff",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#bf0060",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#3399ff",
+    "statusBar.background": "#554477",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBarItem.hoverBackground": "#3399ff",
+    "statusBarItem.remoteBackground": "#007fff",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#007fff",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#007fff99",
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "statusBar.noFolderBackground": "#554477",
+    "statusBar.debuggingBackground": "#554477",
+    "statusBar.debuggingForeground": "#FFFFFF"
   },
   "editor.lineHeight": 24,
   "editor.tabSize": 2, // TAB IDENTACAO PADRAO.
@@ -34,12 +54,30 @@
 
   // VIM_VSCODE
   "vim.insertModeKeyBindings": [
-    {
+    { // -- atalho < j 2vz > para mudar modos - obs: mesmo assim funciona o Esc --
       "before": [ "j", "j"],
       "after": ["<Esc>"]
+    },
+
+    { // -- abreviações --
+      "before": [ "c", "o", "d", "e"],
+      "after": ["`", "`", "`", "#","t", "y", "p", "e", "s", "c", "r", "i", "p", "t", "\n","`", "`", "`"]
       // atalho < j 2vz > para mudar modos - obs: mesmo assim funciona o Esc
-    }
+    },
   ],
+
+  "vim.statusBarColorControl": true, // Color mode
+    "vim.statusBarColors.normal": ["#554477", "#FFFFFF"],
+    "vim.statusBarColors.insert": "#006666",
+    "vim.statusBarColors.visual": "#cc9900",
+    "vim.statusBarColors.visualline": "#cc9900",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
 
   // VERIFICADOR_ORTOGRAFIA -> + PALAVRAS ADD AO DICIONARIO GLOBAL USUARIO_USER
   "cSpell.language": "en,pt,pt_BR",
