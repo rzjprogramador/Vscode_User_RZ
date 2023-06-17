@@ -1,4 +1,22 @@
 {
+  "fake": {
+    "scope": "javascript,typescript",
+    "prefix": "fake",
+    "body": [
+      "const fake${1:foo} = {",
+      "  FAIL: {",
+      "    campo1: 'foo',",
+      "  },",
+      "  OK: {",
+      "    campo1: 'foo',",
+      "  },",
+      "}",
+      "",
+      "export { fake${1:foo} }"
+    ],
+    "description": "fake"
+  },
+
   "jsdoc_FEATURE_feature": {
     "prefix": "jsdoc_FEATURE_feature",
     "body": [
@@ -177,19 +195,21 @@
     ],
     "description": "comment_Titulo2"
   },
-  "Log_ConsoleLog_SuperLibsTS": {
-    "prefix": "Log_CoonsoleLog_SuperLibsTS",
+  "console Log import": {
+    "prefix": "console Log import",
+    "scope": "javascript,typescript",
     "body": [
       "export { log as Log } from \"https://raw.githubusercontent.com/rzjprogramador/SuperDevToolsTS/feature/RZ_Libs_devTools/main.ts\";"
     ],
-    "description": "Log_CoonsoleLog_SuperLibsTS"
+    "description": "console Log import"
   },
-  "consoleLogRZJ": {
-    "prefix": "consoleLogRZJ",
+  "console Log log": {
+    "prefix": "console Log log",
+    "scope": "javascript,typescript",
     "body": [
       "Log(\"${1:foo}: \", ${1:foo})"
     ],
-    "description": "consoleLogRZJ"
+    "description": "console Log log"
   },
   "consoleLogSuper": {
     "prefix": "consoleLogSuper",
