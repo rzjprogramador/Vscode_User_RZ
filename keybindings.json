@@ -195,13 +195,13 @@
     "args": "formatar documento -#TODO configurar_formatador - default: ctrl+k ctrl+f"
   },
   {
-    "key": "ctrl+]",
+    "key": "ctrl+.",
     "command": "editor.action.indentLines",
     "when": "editorTextFocus && !editorReadonly",
     "args": "identa linha a frente - default: ctrl+]"
   },
   {
-    "key": "ctrl+[",
+    "key": "ctrl+,",
     "command": "editor.action.outdentLines",
     "when": "editorTextFocus && !editorReadonly",
     "args": "desidenta linha a atraz - default: ctrl+["
