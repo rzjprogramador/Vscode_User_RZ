@@ -131,10 +131,10 @@
     "args": "navega entre janelas abertas - default -> ctrl+tab"
   },
 	{
-		"key": "f1",
+		"key": "alt+t",
 		"command": "workbench.action.terminal.toggleTerminal",
 		"when": "terminal.active",
-		"args": "toggle TERMINAL - default: ctrl+shift+`<craze>"
+		"args": "toggle TERMINAL :: Obs: Preferia F1 mas como ainda nao consegui no nvim fica <A-t> aqui - default: ctrl+shift+`<craze>"
 	},
   {
     "key": "shift+f1",
@@ -199,16 +199,16 @@
     "args": "mostra todos comandos - show all commands"
   },
   {
-    "key": "left",
+    "key": "alt+left",
     "command": "workbench.action.terminal.resizePaneLeft",
     "when": "editorFocus || focusFilesExplorer || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
-    "args": "redimensiona terminal a direita ->Somente com SETAS LATERAIS >> default: ctrl+shift+left"
+    "args": "redimensiona terminal a direita ->Somente com SETAS LATERAIS: {#TODO fazer somente setas no modo normal na config > vsVIM >>} default: ctrl+shift+left"
   },
   {
-    "key": "right",
+    "key": "alt+right",
     "command": "workbench.action.terminal.resizePaneRight",
     "when": "editorFocus || focusFilesExplorer || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
-    "args": "redimensiona terminal a esquerda -> Somente com SETAS LATERAIS >> default: ctrl+shift+right"
+    "args": "redimensiona terminal a esquerda -> Somente com SETAS LATERAIS {#TODO fazer somente setas no modo normal na config > vsVIM>>} default: ctrl+shift+right"
   },
 
 
