@@ -199,16 +199,16 @@
     "args": "mostra todos comandos - show all commands"
   },
   {
-    "key": "alt+left",
+    "key": "left",
     "command": "workbench.action.terminal.resizePaneLeft",
     "when": "editorFocus || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
-    "args": "redimensiona terminal a direita -> default: ctrl+shift+left"
+    "args": "redimensiona terminal a direita ->Somente com SETAS LATERAIS >> default: ctrl+shift+left"
   },
   {
-    "key": "alt+right",
+    "key": "right",
     "command": "workbench.action.terminal.resizePaneRight",
     "when": "editorFocus || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
-    "args": "redimensiona terminal a esquerda -> default: ctrl+shift+right"
+    "args": "redimensiona terminal a esquerda -> Somente com SETAS LATERAIS >> default: ctrl+shift+right"
   },
 
 
