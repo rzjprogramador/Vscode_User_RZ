@@ -115,12 +115,12 @@
 		"args": "comentario em bloco -> default ctrl+shift+a"
   },
   {
-		"key": "ctrl+w",
+		"key": "alt+w",
 		"command": "workbench.action.closeActiveEditor",
 		"args": "fecha atual janela ativa -> default ctrl+w"
 	},
   {
-    "key": "ctrl+q",
+    "key": "alt+q",
     "command": "workbench.action.closeAllEditors",
     "args": "fecha todas janelas ativa forcado force -> default: ctrl+k ctrl+w"
   },
