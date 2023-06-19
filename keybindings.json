@@ -103,12 +103,6 @@
     "args": "inserir cursor linhas abaixo - default -> ctrl+shift+down"
   },
 	{
-		"key": "ctrl+d",
-		"command": "editor.action.deleteLines",
-		"when": "textInputFocus && !editorReadonly",
-		"args": "deleta linha -> default ctrl+shift+k"
-	},
-	{
 		"key": "ctrl+\\",
 		"command": "editor.action.commentLine",
 		"when": "editorTextFocus && !editorReadonly",
@@ -215,7 +209,7 @@
     "command": "workbench.action.terminal.resizePaneRight",
     "when": "editorFocus || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
     "args": "redimensiona terminal a esquerda -> default: ctrl+shift+right"
-  }
+  },
 
 
 
