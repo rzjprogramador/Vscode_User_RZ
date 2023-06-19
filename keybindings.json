@@ -79,13 +79,13 @@
     "args": "seleciona tudo - default: ctrl+a"
   },
 	{
-		"key": "alt+,",
+		"key": "ctrl+,",
 		"command": "editor.action.addSelectionToNextFindMatch",
 		"when": "editorFocus",
 		"args": "ocorrencia_atual_UMA - default era ctrl+d"
 	},
 	{
-		"key": "alt+.",
+		"key": "ctrl+.",
 		"command": "editor.action.selectHighlights",
 		"when": "editorFocus",
 		"args": "ocorrencias_TODAS - default era ctrl+."
@@ -165,7 +165,7 @@
     "args": "renomea definicao variavel - rename symbol -> default: f2"
   },
 	{
-		"key": "ctrl+f1",
+    "key": "ctrl+f1",
 		"command": "workbench.action.showCommands",
 		"args": "mostra comandos - default: f1"
 	},
@@ -188,13 +188,13 @@
     "args": "formatar documento -#TODO configurar_formatador - default: ctrl+k ctrl+f"
   },
   {
-    "key": "ctrl+.",
+    "key": "alt+.",
     "command": "editor.action.indentLines",
     "when": "editorTextFocus && !editorReadonly",
     "args": "identa linha a frente - default: ctrl+]"
   },
   {
-    "key": "ctrl+,",
+    "key": "alt+,",
     "command": "editor.action.outdentLines",
     "when": "editorTextFocus && !editorReadonly",
     "args": "desidenta linha a atraz - default: ctrl+["

@@ -3,7 +3,7 @@ const fakeBla = {
 		campo1: 'foo',
 	},
 	OK: {
-		campo1: 'foo',
+		campo1cc: 'foo2',
 	},
 }
 
