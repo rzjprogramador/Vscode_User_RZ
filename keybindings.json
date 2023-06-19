@@ -170,18 +170,11 @@
 		"args": "mostra comandos - default: f1"
 	},
   {
-		"key": "ctrl+shift+down",
+		"key": "ctrl+down",
 		"command": "editor.action.copyLinesDownAction",
 		"when": "editorTextFocus && !editorReadonly",
-		"args": "duplica > copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+down"
+		"args": "duplica > copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+down - obs: feito somente para baixo - se precisar para cima esta nos backups."
 	},
-
-	{
-		"key": "ctrl+shift+up",
-		"command": "editor.action.copyLinesUpAction",
-		"when": "editorTextFocus && !editorReadonly",
-		"args": "duplica > copia e cola selecionado linha abaixo - Copy Line Down -- default ctrl+shift+Alt+up"
-  },
   {
     "key": "ctrl+l",
     "command": "expandLineSelection",
