@@ -20,7 +20,7 @@
     "statusBar.debuggingForeground": "#FFFFFF"
   },
   "editor.lineHeight": 24,
-  "editor.tabSize": 2, // TAB IDENTACAO PADRAO.
+  "editor.tabSize": 2, // -- TAB IDENTACAO PADRAO --
   "update.mode": "none", // atualizar vscode : "none" nao pede mais >> "default" < fica avisando.
   "zenMode.silentNotifications": false,
   "editor.wordWrap": "on",
