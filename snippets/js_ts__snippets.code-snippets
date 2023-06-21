@@ -1,4 +1,21 @@
 {
+  "feedback": {
+    "scope": "javascript,typescript",
+    "prefix": "feedback",
+    "body": [
+      "const feedback${1:foo} = {",
+      "  FAIL: {",
+      "    campo1: 'foo',",
+      "  },",
+      "  OK: {",
+      "    campo1: 'foo',",
+      "  },",
+      "}",
+      "",
+      "export { feedback${1:foo} }"
+    ],
+    "description": "feedback"
+  },
   "fake": {
     "scope": "javascript,typescript",
     "prefix": "fake",
@@ -90,7 +107,7 @@
     ],
     "description": "jsdoc_rzj_author"
   },
-  
+
   "jsdoc_MAIN_libs": {
     "scope": "javascript,typescript",
     "prefix": "jsdoc_MAIN_libs",
