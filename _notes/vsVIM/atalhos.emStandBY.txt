@@ -17,17 +17,7 @@
 },
 
 
-{
-  "key": "ctrl+c",
-  "command": "editor.action.clipboardCopyAction",
-  "args": "copiar em edição - reconfigurando ctrl+c de novo vscode_vim"
-},
 
-{
-"key": "ctrl+v",
-"command": "editor.action.clipboardPasteAction",
-"args": "colar em edição - reconfigurando ctrl+v de novo vscode_vim"
-},
 
 -- =====================================================================================
 -- BACKUPS DO SEETINGS.JSON -- =========================================================

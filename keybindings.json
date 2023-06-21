@@ -23,6 +23,30 @@
     "args": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
   },
   {
+  "key": "ctrl+c",
+  "command": "editor.action.clipboardCopyAction",
+  "args": "copiar em edição - reconfigurando ctrl+c de novo vscode_vim"
+},
+
+{
+"key": "ctrl+v",
+"command": "editor.action.clipboardPasteAction",
+"args": "colar em edição - reconfigurando ctrl+v de novo vscode_vim"
+},
+
+{
+  "key": "ctrl+c",
+  "command": "editor.action.clipboardCopyAction",
+  "args": "copiar em edição - reconfigurando ctrl+c de novo vscode_vim"
+},
+
+{
+"key": "ctrl+v",
+"command": "editor.action.clipboardPasteAction",
+"args": "colar em edição - reconfigurando ctrl+v de novo vscode_vim"
+},
+
+  {
     "key": "ctrl+c",
     "command": "workbench.action.terminal.copySelection",
     "when": "terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected",
