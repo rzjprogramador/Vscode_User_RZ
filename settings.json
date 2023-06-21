@@ -8,19 +8,8 @@
     "activityBarBadge.background": "#bf0060",
     "activityBarBadge.foreground": "#e7e7e7",
     "commandCenter.border": "#e7e7e799",
-    "sash.hoverBorder": "#3399ff",
-    "statusBar.foreground": "#FFFFFF",
-    "statusBarItem.hoverBackground": "#3399ff",
-    "statusBarItem.remoteBackground": "#007fff",
-    "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#007fff",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#007fff99",
-    "titleBar.inactiveForeground": "#e7e7e799",
-    "statusBar.noFolderBackground": "#006666",
-    "statusBar.debuggingBackground": "#006666",
-    "statusBar.debuggingForeground": "#FFFFFF",
-    "statusBar.background": "#006666"
+    "sash.hoverBorder": "#3399ff"
+
   },
   "editor.lineHeight": 24,
   "editor.tabSize": 2, // TAB IDENTACAO PADRAO.
@@ -61,7 +50,6 @@
   "workbench.colorTheme": "OM Theme (Night Owl Italic)",
 
   // vsVIM -> obs: coloque somente destes escopos as configs vsVIM
-
   "vim.commandLineModeKeyBindings": [
 
     {
@@ -81,7 +69,7 @@
     }
 
   ],
-  
+
   "vim.insertModeKeyBindings": [
     { // -- atalho < j 2vz > para mudar modos - obs: mesmo assim funciona o Esc --
       "before": [ "j", "j"],
