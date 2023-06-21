@@ -9,17 +9,7 @@
 
 -- EM STAND BY ======================================
 
-{
-		"key": "ctrl+d",
-		"command": "editor.action.deleteLines",
-		"when": "textInputFocus && !editorReadonly",
-		"args": "deleta linha -> default ctrl+shift+k -> movido para backup para acostumar deletar com <dd do vim em modo normal>"
-},
-
-
-
-
--- =====================================================================================
+===================================================================================
 -- BACKUPS DO SEETINGS.JSON -- =========================================================
 
  { // -- abreviações --

@@ -23,6 +23,12 @@
     "args": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
   },
   {
+		"key": "alt+d",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly",
+		"args": "deleta linha -> default ctrl+shift+k -> movido para backup para acostumar deletar com <dd do vim em modo normal>"
+  },
+  {
   "key": "ctrl+c",
   "command": "editor.action.clipboardCopyAction",
   "args": "copiar em edição - reconfigurando ctrl+c de novo vscode_vim"
