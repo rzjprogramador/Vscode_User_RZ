@@ -13,9 +13,9 @@
     "activityBarBadge.foreground": "#e7e7e7",
     "commandCenter.border": "#e7e7e799",
     "sash.hoverBorder": "#3399ff",
-    "statusBar.background": "#9900cc",
-    "statusBar.noFolderBackground": "#9900cc",
-    "statusBar.debuggingBackground": "#9900cc",
+    "statusBar.background": "#006666",
+    "statusBar.noFolderBackground": "#006666",
+    "statusBar.debuggingBackground": "#006666",
     "statusBar.debuggingForeground": "#FFFFFF"
   },
   "editor.lineHeight": 24,
