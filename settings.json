@@ -150,6 +150,9 @@
   "deno.config": "./deno.json",
   // obs: formatador padrao apra deno esta no escopo [typescript]
 
+  // para funcionar importMap sem settings vscode local no projeto.
+  "deno.importMap": "./import_map.json",
+
   // Material icon theme extension
   "material-icon-theme.hidesExplorerArrows": true,
   "material-icon-theme.folders.theme": "classic",
