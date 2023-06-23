@@ -1,0 +1,29 @@
+
+{
+  "key": "",
+  "command": "workbench.action.focusActivityBar"
+}
+
+// COMANDOS NATIVOS VSCODE
+
+// toggle terminal - vai rempaear para tt
+{
+  "key": "ctrl+shift+[BracketLeft]",
+  "command": "workbench.action.terminal.toggleTerminal",
+  "when": "terminal.active || terminalFocus",
+  "desc": "toggle terminal >>> key original ctrl+shift+[BracketLeft] "
+}
+
+
+TODO : TENTAIVA REMAP COMANDO ORIGINAL ABRE TERMINAL PARA tt
+//-- Remap - maps que era do vscode nativo para usar no vsVIM
+  // toggle terminal - vai rempaear para tt
+
+  {
+    "key": "ctrl+shift+[BracketLeft]",
+    "command": "vim.remap",
+    "when": "inputFocus && vim.mode == 'Normal'",
+    "args": {
+      "after": ["z", "z"]
+    }
+  }

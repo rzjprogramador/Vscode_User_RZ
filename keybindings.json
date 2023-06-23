@@ -23,7 +23,7 @@
     "desc": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
   },
   {
-		"key": "ctrl+d",
+		"key": "escape+dd",
 		"command": "editor.action.deleteLines",
 		"when": "textInputFocus && !editorReadonly",
 		"desc": "deleta linha -> default ctrl+shift+k -> movido para backup para acostumar deletar com <dd do vim em modo normal>"
@@ -99,13 +99,13 @@
     "desc": "seleciona tudo - default: ctrl+a"
   },
 	{
-		"key": "ctrl+,",
+		"key": "ctrl+shift+,",
 		"command": "editor.action.addSelectionToNextFindMatch",
 		"when": "editorFocus",
 		"desc": "ocorrencia_atual_UMA - default era ctrl+d"
 	},
 	{
-		"key": "ctrl+.",
+		"key": "ctrl+shift+.",
 		"command": "editor.action.selectHighlights",
 		"when": "editorFocus",
 		"desc": "ocorrencias_TODAS - default era ctrl+."
@@ -150,12 +150,6 @@
     "when": "inEditorsPicker && inQuickOpen",
     "desc": "navega entre janelas abertas - default -> ctrl+tab"
   },
-	{
-		"key": "alt+t",
-		"command": "workbench.action.terminal.toggleTerminal",
-		"when": "terminal.active",
-		"desc": "toggle TERMINAL :: Obs: Preferia F1 mas como ainda nao consegui no nvim fica <A-t> aqui - default: ctrl+shift+`<craze>"
-	},
   {
     "key": "shift+f1",
     "command": "workbench.action.terminal.kill",
@@ -229,8 +223,14 @@
     "command": "workbench.action.terminal.resizePaneRight",
     "when": "editorFocus || focusFilesExplorer || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported",
     "desc": "redimensiona terminal a esquerda -> Somente com SETAS LATERAIS {#TODO fazer somente setas no modo normal na config > vsVIM>>} default: ctrl+shift+right"
-  }
+  },
 
+  {
+    "key": "alt+t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active || terminalFocus",
+    "desc": "toggle terminal >>> key original ctrl+shift+[BracketLeft] "
+  }
 
 
 ]
