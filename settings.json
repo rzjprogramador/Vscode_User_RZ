@@ -71,7 +71,9 @@
   "vim.statusBarColors.easymotioninputmode": "#007ACC",
   "vim.statusBarColors.surroundinputmode": "#007ACC",
 
-  // VERIFICADOR_ORTOGRAFIA -> + PALAVRAS ADD AO DICIONARIO GLOBAL USUARIO_USER
+
+
+  // VEFICADOR_ORTOGRAFIA -> + PALAVRAS ADD AO DICIONARIO GLOBAL USUARIO_USER
   "cSpell.language": "en,pt,pt_BR",
   "cSpell.userWords": [
     "foo", "Foo"
