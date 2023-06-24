@@ -6,10 +6,16 @@
     "desc": "Tab identa"
   },
   {
-      "key": "shift+tab",
-      "command": "outdent",
-      "when": "editorTextFocus && !editorTabMovesFocus",
-      "desc": "re-Tab desindenta."
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus",
+    "desc": "re-Tab desindenta."
+  },
+  {
+    "key": "shift+enter",
+    "when": "inputFocus && vim.mode == 'Normal",
+    "command": "editor.action.insertLineBefore",
+    "desc": "insere ja em edição uma linha acima - comando vscode usando em normal mode no vsVIM"
   },
   {
     "key": "f4",
@@ -23,7 +29,7 @@
     "desc": "find crtl+f - caso nao tiver habilitado no vscode_vim add este aqui."
   },
   {
-		"key": "escape+dd",
+		"key": "alt+d",
 		"command": "editor.action.deleteLines",
 		"when": "textInputFocus && !editorReadonly",
 		"desc": "deleta linha -> default ctrl+shift+k -> movido para backup para acostumar deletar com <dd do vim em modo normal>"
@@ -120,7 +126,7 @@
     "key": "ctrl+shift+down",
     "command": "editor.action.insertCursorBelow",
     "when": "editorTextFocus",
-    "desc": "inserir cursor linhas abaixo - default -> ctrl+shift+down"
+    "desc": "editar linhas simultaneamente - inserir cursor linhas abaixo - default -> ctrl+shift+down"
   },
   {
 		"key": "ctrl+\\",

@@ -216,28 +216,15 @@
     ],
     "description": "comment_Titulo2"
   },
-  "console Log import": {
-    "prefix": "console Log import",
+    "consoleLog_SuperLibsRZ_TS": {
+    "prefix": "consoleLog_SuperLibsRZ_TS",
     "scope": "javascript,typescript",
     "body": [
-      "export { log as Log } from \"https://raw.githubusercontent.com/rzjprogramador/SuperDevToolsTS/feature/RZ_Libs_devTools/main.ts\";"
-    ],
-    "description": "console Log import"
-  },
-  "console Log log": {
-    "prefix": "console Log log",
-    "scope": "javascript,typescript",
-    "body": [
+      "export { log as Log } from \"/home/rzj/..gitAll/_Provisorias_SuperLibsDEV/LogConsoleTS_PC/features/feature.ts\";",
+      "",
       "Log(\"${1:foo}: \", ${1:foo})"
     ],
-    "description": "console Log log"
-  },
-  "consoleLogSuper": {
-    "prefix": "consoleLogSuper",
-    "body": [
-      "Log(\"${1:foo}: \", ${1:foo})"
-    ],
-    "description": "consoleLogSuper"
+    "description": "consoleLog_SuperLibsRZ_TS"
   },
   "try_catch_RZ": {
     "prefix": "try_catch_RZ",

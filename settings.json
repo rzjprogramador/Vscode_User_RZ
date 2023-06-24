@@ -36,6 +36,10 @@
   "editor.trimAutoWhitespace": true, // relacioando espaço
   "editor.snippetSuggestions": "top", // prioridade em meus snippets
 
+  // POSICIONAMENTOS
+  "workbench.sideBar.location": "right", // LADO DO PAINEL LATERAL SIDEBAR
+  "workbench.panel.defaultLocation": "right", // ativar menu sibebar de atividades
+
   // -- auto_complete
   "editor.quickSuggestions": {
     "other": true,
@@ -45,7 +49,6 @@
 
   // TERMINAL
   "terminal.integrated.fontSize": 14,
-  "workbench.panel.defaultLocation": "bottom", // ativar menu sibebar de atividades
 
   // Workbench
   "workbench.startupEditor": "newUntitledFile",
@@ -163,7 +166,6 @@
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "git.ignoreRebaseWarning": true,
-  "workbench.sideBar.location": "right", // MOVE BARRA BOTOES LATERIAS
   "liveServer.settings.donotShowInfoMsg": true,
 
   // LINGUAGENS_CONFIG
