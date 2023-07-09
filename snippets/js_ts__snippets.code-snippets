@@ -1,4 +1,17 @@
 {
+  "pgm_significados": {
+    "scope": "javascript,typescript",
+    "prefix": "pgm_significados",
+    "body": [
+      "{",
+      "  categoria: \"significados\",",
+      "  titulo: \"\",",
+      "  significados: [\"\", ],",
+      "},"
+    ],
+    "description": "pgm_significados"
+  },
+
   "feedback": {
     "scope": "javascript,typescript",
     "prefix": "feedback",
@@ -216,11 +229,20 @@
     ],
     "description": "comment_Titulo2"
   },
+    "superLibsTS_RZ": {
+    "prefix": "superLibsTS_RZ",
+    "scope": "javascript,typescript",
+    "body": [
+      "import { $0, } from \"/home/rzj/..gitAll/SuperLibsTS/main.ts\";",
+      "",
+    ],
+    "description": "consoleLog_SuperLibsRZ_TS"
+  },
     "consoleLog_SuperLibsRZ_TS": {
     "prefix": "consoleLog_SuperLibsRZ_TS",
     "scope": "javascript,typescript",
     "body": [
-      "export { log as Log } from \"/home/rzj/..gitAll/_Provisorias_SuperLibsDEV/LogConsoleTS_PC/features/feature.ts\";",
+      "export { log as Log } from \"/home/rzj/..gitAll/SuperLibsTS/main.ts\";",
       "",
       "Log(\"${1:foo}: \", ${1:foo})"
     ],
@@ -332,14 +354,9 @@
       "  res.then(d => Log(d))",
       "  // res.then(d => Log(d))",
       "}",
-      "tester_ ();",
+      "// tester_ ();",
       "",
-      "/*",
-      "* PARA RODAR ONLY SÓ ESTE TEST ```deno test <caminhoDesteArquivo>```",
-      "*/",
-      "",
-      "export default 1;",
-      ""
+      "export default 1;"
     ],
     "description": "test_deno_completo"
   },

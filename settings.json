@@ -13,9 +13,9 @@
     "activityBarBadge.foreground": "#e7e7e7",
     "commandCenter.border": "#e7e7e799",
     "sash.hoverBorder": "#3399ff",
-    "statusBar.background": "#006666",
-    "statusBar.noFolderBackground": "#006666",
-    "statusBar.debuggingBackground": "#006666",
+    "statusBar.background": "#9900cc",
+    "statusBar.noFolderBackground": "#9900cc",
+    "statusBar.debuggingBackground": "#9900cc",
     "statusBar.debuggingForeground": "#FFFFFF"
   },
   "editor.lineHeight": 24,
@@ -57,7 +57,6 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": false, // config abrir somente uma aba de trabalho
   "workbench.list.smoothScrolling": true,
-  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
 
   // VEFICADOR_ORTOGRAFIA -> + PALAVRAS ADD AO DICIONARIO GLOBAL USUARIO_USER
   "cSpell.language": "en,pt,pt_BR",
@@ -174,6 +173,7 @@
   "dart.openDevTools": "flutter",
   "[jsonc]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
-  }
+  },
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)"
 
 }

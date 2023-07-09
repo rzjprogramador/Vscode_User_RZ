@@ -1,5 +1,12 @@
 [
   {
+    "key": "f12",
+    "command": "copyFilePath",
+    "when": "editorFocus",
+    "desc": "Copiar caminho absoluto de arquivo em foco >> original era ctrl+k ctrl+alt+c"
+  },
+
+  {
     "key": "tab",
     "command": "tab",
     "when": "editorTextFocus && !editorTabMovesFocus",
@@ -105,16 +112,16 @@
     "desc": "seleciona tudo - default: ctrl+a"
   },
 	{
-		"key": "ctrl+shift+,",
+		"key": "alt+n",
 		"command": "editor.action.addSelectionToNextFindMatch",
 		"when": "editorFocus",
-		"desc": "ocorrencia_atual_UMA - default era ctrl+d"
+		"desc": "NEXT - PROXIMAS - N ->  ocorrencias - default era ctrl+d"
 	},
 	{
-		"key": "ctrl+shift+.",
+		"key": "alt+m",
 		"command": "editor.action.selectHighlights",
 		"when": "editorFocus",
-		"desc": "ocorrencias_TODAS - default era ctrl+."
+		"desc": "MANY - MUITAS - M -> ocorrencias - default era ctrl+."
 	},
   {
     "key": "ctrl+.",
@@ -168,9 +175,14 @@
     "desc": "abrir arquivo selecionado em vsplit -> default: ctrl+enter"
   },
 	{
+		"key": "f3",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"desc": "toggle_explorador_de_arquivos - remapear para alt+e && f3 - default: ctrl+b"
+	},
+	{
 		"key": "alt+e",
 		"command": "workbench.action.toggleSidebarVisibility",
-		"desc": "toggle_explorador_de_arquivos - default: ctrl+b"
+		"desc": "toggle_explorador_de_arquivos - remapear para alt+e && f3 - default: ctrl+b"
 	},
   {
     "key": "f2",
@@ -232,7 +244,7 @@
   },
 
   {
-    "key": "alt+t",
+    "key": "f1",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active || terminalFocus",
     "desc": "toggle terminal >>> key original ctrl+shift+[BracketLeft] "
