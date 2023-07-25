@@ -1,5 +1,17 @@
 [
   {
+    "key": "shift+f2",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor",
+    "desc": "encontrar onde foi definida a variavel symbol : comando original : f12 - modifiquei para shift+f2"
+  },
+  {
+    "key": "alt+f2",
+    "command": "references-view.findReferences",
+    "when": "editorHasReferenceProvider",
+    "desc": "encontrar todas referencias de um symbol onde estiver sendo usado em  todos arquivos: comando original: shift+alt+f12"
+  },
+  {
     "key": "f12",
     "command": "copyFilePath",
     "when": "editorFocus",

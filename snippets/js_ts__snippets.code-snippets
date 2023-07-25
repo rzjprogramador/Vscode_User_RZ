@@ -71,17 +71,33 @@
     "description": "nao_usada_var"
   },
 
-  "conceito_novo": {
-    "scope": "javascript,typescript",
-    "prefix": "conceito_novo",
+  "conceito_Completo": {
+    "prefix": "conceito_Completo",
     "body": [
       "titulo: \"$1\",",
-      "categorias: [\"\", ],",
+      "categorias: [\"\", \"\", ],",
       "contexto: \"\",",
       "conceito: \"\",",
-      "observacoes: \"#null\","
+      "observacoes: \"#null\",",
+      "exemplos: `",
+      "",
+      "`,",
+      ""
     ],
-    "description": "conceito_novo"
+    "description": "conceito_Completo"
+  },
+
+  "conceito_Simples": {
+    "prefix": "conceito_Simples",
+    "body": [
+      "{",
+      "  titulo: \"$1\",",
+      "  categorias: [\"\", \"\"],",
+      "  conceito: \"\",",
+      "},",
+      ""
+    ],
+    "description": "conceito_Simples"
   },
 
   "informe_Projeto_Markdown_MD": {
@@ -316,68 +332,68 @@
     ],
     "description": "jsdoc doc "
   },
-  "test_deno_completo": {
-    "prefix": "test_deno_completo",
+
+  "test_deno": {
+    "prefix": "test_deno",
+    "scope": "javascript,typescript",
     "body": [
-      "// deno-lint-ignore-file no-explicit-any no-unused-vars",
       "import { expect } from \"https://deno.land/x/expect@v0.2.10/expect.ts\";",
       "",
-      "",
-      "const sut = (d: any) => d",
-      "const inputSut = 'foo'",
+      "const sut = true",
       "",
       "Deno.test({",
-      "  name: \"deve retornar ->  && .\",",
+      "  name: \"[ FAIL ] deve retornar $1.\",",
       "  only: false,",
       "  async fn() {",
-      "    // const input = inputSut;",
-      "    // const where = await sut(input);",
-      "    // const assertion = undefined;",
-      "    // Log('  >>>>>>> ', where)",
-      "    // expect(where).toEqual(assertion);",
+      "",
+      "  expect(true).toEqual(true);",
       "  },",
       "",
       "});",
       "",
-      "Deno.test(\"[ deve retornar ->  && .\", () => {",
-      "  const input = inputSut;",
-      "  const where = sut(input);",
-      "  const assertion: any = \"foo\";",
-      "  // Log('  >>>>>>> ', where)",
-      "  expect(where).toEqual(assertion);",
+      "Deno.test(\"[ OK ] deve retornar .\", () => {",
+      "",
+      "  expect(true).toEqual(true);",
       "});",
       "",
-      "/* TESTER_CONSOLE ************************************* */",
+      "/* -- TESTER_CONSOLE -- */",
       "",
-      "async function tester_ () {",
-      "  const res = await sut(inputSut);",
-      "  res.then(d => Log(d))",
-      "  // res.then(d => Log(d))",
-      "}",
+      "async function tester_ () {}",
       "// tester_ ();",
       "",
       "export default 1;"
     ],
-    "description": "test_deno_completo"
+    "description": "test_deno"
   },
-  "test_deno_SUITE_suite": {
-    "prefix": "test_deno_SUITE_suite",
+
+  "test_deno_suite_only": {
+    "prefix": "test_deno_suite_only",
+    "scope": "javascript,typescript",
     "body": [
       "Deno.test({",
-      "  name: \"deve retornar ->  && .\",",
+      "  name: \"[ FAIL ] deve retornar $1.\",",
       "  only: false,",
       "  async fn() {",
-      "    // const input = inputSut;",
-      "    // const where = await sut(input);",
-      "    // const assertion = undefined;",
-      "    // Log('  >>>>>>> ', where)",
-      "    // expect(where).toEqual(assertion);",
+      "",
+      "  expect(true).toEqual(true);",
       "  },",
       "",
       "});"
     ],
-    "description": "test_deno_SUITE_suite"
+    "description": "test_deno_suite_only"
   },
+
+  "test_deno_suite": {
+    "prefix": "test_deno_suite",
+    "body": [
+      "Deno.test(\"[ OK ] deve retornar $1.\", () => {",
+      "",
+      "  expect(true).toEqual(true);",
+      "});"
+    ],
+    "description": "test_deno_suite"
+  },
+
   "deno_test_import_expect": {
     "prefix": "deno_test_import_expect",
     "body": [
@@ -385,6 +401,22 @@
     ],
     "description": "deno_test_import_expect"
   },
+
+  "test_deno_promise_resolvida": {
+    "prefix": "test_deno_promise_resolvida",
+    "body": [
+      "expect(Promise.resolve(PROMESSA)).resolves.toEqual(RESULTADO_ESPERADO);"
+    ],
+    "description": "test_deno_promise_resolvida"
+  },
+  "test_deno_promise_rejeitada": {
+    "prefix": "test_deno_promise_rejeitada",
+    "body": [
+      "expect(Promise.resolve(PROMESSA)).rejects.toEqual(RESULTADO_ESPERADO);"
+    ],
+    "description": "test_deno_promise_rejeitada"
+  },
+
   "ignore_ts_erros": {
     "scope": "javascript,typescript",
     "prefix": "ignore_ts_erros",
@@ -497,5 +529,52 @@
       ""
     ],
     "description": "noExport_DEFAULT_1"
-  }
+  },
+  "demonstracao_reduce_async": {
+    "scope": "javascript,typescript",
+    "prefix": "demonstracao_reduce_async",
+    "body": [
+      "// await listPipeClienteFisico.reduce(async (acc: any, fn) => await fn(acc), args)",
+      "// detalhe: tipar acc: any, async na HigherOrderFunctions FuncaoDeOrdemSuperior do reduce espera para acão final."
+    ],
+    "description": "demonstracao_reduce_async"
+  },
+  "pipe_async": {
+    "prefix": "pipe_async",
+    "scope": "javascript,typescript",
+    "body": [
+      "const nameFN = async (args: any) => {",
+      "  return await arrayTarget.reduce(async (acc: any, fn) => await fn(acc), args)",
+      "}"
+    ],
+    "description": "pipe_async"
+  },
+  "todo_futuro": {
+  "prefix": "todo_futuro",
+  "body": [
+    "// -- #futuro::> reservado para $1  . --",
+  ],
+  "description": "todo_futuro"
+  },
+  "todo_naoImplementado": {
+    "prefix": "todo_naoImplementado",
+    "body": [
+      "// -- #TODO: NaoImplementado --",
+    ],
+    "description": "todo_naoImplementado"
+  },
+  "todo_RetornandoErro": {
+    "prefix": "todo_RetornandoErro",
+    "body": [
+      "// -- #TODO: RetornandoErro --",
+    ],
+    "description": "todo_RetornandoErro"
+  },
+  "todo_MelhorarNoFuturo": {
+    "prefix": "todo_MelhorarNoFuturo",
+    "body": [
+      "// -- #TODO: MelhorarNoFuturo --",
+    ],
+    "description": "todo_MelhorarNoFuturo"
+  },
 }
