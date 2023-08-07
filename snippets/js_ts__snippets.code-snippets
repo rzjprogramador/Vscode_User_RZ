@@ -577,4 +577,14 @@
     ],
     "description": "todo_MelhorarNoFuturo"
   },
+  "modelo_cleanRepoTS": {
+    "prefix": "modelo_cleanRepoTS",
+    "body": [
+      "function cleanRepo() {",
+      "  repoInUse.memory.items = []!",
+      "}",
+      "// -- modelo limpar repo inmemory -- como ele é o de test tenho que só mandar limpar. --"
+    ],
+    "description": "modelo_cleanRepoTS"
+  },
 }
