@@ -27,6 +27,7 @@
   "git.autofetch": true,
 
   // EDITOR
+  "explorer.compactFolders": false, // compacta visualiazacao dos folders na sidebar.
   "window.newWindowDimensions": "maximized", // abre instancia maximizada ao iniciar editor
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
@@ -170,6 +171,7 @@
   "[jsonc]": {
     "editor.defaultFormatter": "denoland.vscode-deno"
   },
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)"
+  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  "java.debug.settings.console": "internalConsole"
 
 }
