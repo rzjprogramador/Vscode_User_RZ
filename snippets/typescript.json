@@ -1,0 +1,144 @@
+{
+
+  "conceito_Completo": {
+    "prefix": "conceito_Completo",
+    "body": [
+      "titulo: \"$1\",",
+      "categorias: [\"\", \"\", ],",
+      "contexto: \"\",",
+      "conceito: \"\",",
+      "observacoes: \"#null\",",
+      "exemplos: `",
+      "",
+      "`,",
+      ""
+    ],
+    "description": "conceito_Completo"
+  },
+
+  "conceito_Simples": {
+    "prefix": "conceito_Simples",
+    "body": [
+      "{",
+      "  titulo: \"$1\",",
+      "  categorias: [\"\", \"\"],",
+      "  conceito: \"\",",
+      "},",
+      ""
+    ],
+    "description": "conceito_Simples"
+  },
+
+  "model_class_custom_error_ts": {
+    "prefix": "model_class_custom_error_ts",
+    "body": [
+      "export class $1InvalidEntity extends Error {",
+      "  constructor(msg: string) {",
+      "    super(`\\${msg}`);",
+      "    this.name = `InvalidEntity`;",
+      "  }",
+      "}"
+    ],
+    "description": "model_class_custom_error_ts"
+  },
+
+  "test_deno": {
+    "prefix": "test_deno",
+    "body": [
+      "import { expect } from \"https://deno.land/x/expect@v0.2.10/expect.ts\";",
+      "",
+      "const sut = true",
+      "",
+      "Deno.test({",
+      "  name: \"[ FAIL ] deve retornar $1.\",",
+      "  only: false,",
+      "  async fn() {",
+      "",
+      "  expect(true).toEqual(true);",
+      "  },",
+      "",
+      "});",
+      "",
+      "Deno.test(\"[ OK ] deve retornar .\", () => {",
+      "",
+      "  expect(true).toEqual(true);",
+      "});",
+      "",
+      "/* -- TESTER_CONSOLE -- */",
+      "",
+      "async function tester_ () {}",
+      "// tester_ ();",
+      "",
+      "export default 1;"
+    ],
+    "description": "test_deno"
+  },
+
+  "noExport_DEFAULT_1": {
+    "prefix": "noExport_DEFAULT_1",
+    "body": [
+      "",
+      "export default 1",
+      ""
+    ],
+    "description": "noExport_DEFAULT_1"
+  },
+  "demonstracao_reduce_async": {
+    "prefix": "demonstracao_reduce_async",
+    "body": [
+      "// await listPipeClienteFisico.reduce(async (acc: any, fn) => await fn(acc), args)",
+      "// detalhe: tipar acc: any, async na HigherOrderFunctions FuncaoDeOrdemSuperior do reduce espera para acão final."
+    ],
+    "description": "demonstracao_reduce_async"
+  },
+  "pipe_async": {
+    "prefix": "pipe_async",
+    "body": [
+      "const nameFN = async (args: any) => {",
+      "  return await arrayTarget.reduce(async (acc: any, fn) => await fn(acc), args)",
+      "}"
+    ],
+    "description": "pipe_async"
+  },
+
+  "todo_futuro": {
+  "prefix": "todo_futuro",
+  "body": [
+    "// -- #futuro::> reservado para $1  . --",
+  ],
+  "description": "todo_futuro"
+  },
+  "todo_naoImplementado": {
+    "prefix": "todo_naoImplementado",
+    "body": [
+      "// -- #TODO: NaoImplementado --",
+    ],
+    "description": "todo_naoImplementado"
+  },
+  "todo_RetornandoErro": {
+    "prefix": "todo_RetornandoErro",
+    "body": [
+      "// -- #TODO: RetornandoErro --",
+    ],
+    "description": "todo_RetornandoErro"
+  },
+  "todo_MelhorarNoFuturo": {
+    "prefix": "todo_MelhorarNoFuturo",
+    "body": [
+      "// -- #TODO: MelhorarNoFuturo --",
+    ],
+    "description": "todo_MelhorarNoFuturo"
+  },
+
+  "modelo_cleanRepoTS": {
+    "prefix": "modelo_cleanRepoTS",
+    "body": [
+      "function cleanRepo() {",
+      "  repoInUse.memory.items = []!",
+      "}",
+      "// -- modelo limpar repo inmemory -- como ele é o de test tenho que só mandar limpar. --"
+    ],
+    "description": "modelo_cleanRepoTS"
+  },
+
+}

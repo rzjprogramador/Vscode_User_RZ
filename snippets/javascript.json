@@ -1,0 +1,19 @@
+{
+  "todo_links_provisorios": {
+    "prefix": "todo_links_provisorios",
+    "body": [
+      "// #TODO: imports provisórios do PC -> substituir por linkReal assim que prontos.",
+    ],
+    "description": "todo_links_provisorios"
+  },
+  "jsdoc_rzj_author": {
+    "prefix": "jsdoc_rzj_author",
+    "body": [
+      " * @author @RzjProgramador  { @RzjProgramador in -> [ linkedin, twitter, facebook, instagram] }",
+      ""
+    ],
+    "description": "jsdoc_rzj_author"
+  },
+
+
+}

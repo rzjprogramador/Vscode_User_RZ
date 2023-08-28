@@ -14,6 +14,15 @@
 			"System.out.println(\"------------------------------\");\n$1"
 		],
 		"description": "divide_console"
+	},
+	"for": {
+		"prefix": "for",
+		"body": [
+			"for(${1:type} ${2:posicao}=0; ${2:posicao} < ${3:array}.length; ${2:posicao}++) {",
+			"  ${3:array}[${2:posicao}];",
+			"}"
+		],
+		"description": "for"
 	}
 
 	// Place your snippets for java here. Each snippet is defined under a snippet name and has a prefix, body and
